@@ -1,0 +1,30 @@
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Index from './pages';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Services from './pages/services';
+import FrontEnd from './component/Layout/Frontend/FrontEnd';
+import Error from './pages/error.js';
+
+function App() {
+	return (
+		<div className="App">
+			
+			<Router>
+				<Routes>
+					<Route path='/' element={<FrontEnd />}>
+						<Route path='/' element={<Index />} />
+						<Route path='/about' element={<About />} />
+						<Route path='/contact' element={<Contact />} />
+						<Route path='/services' element={<Services />} />
+						
+						<Route path='*' element={<Error />} />
+					</Route>
+				</Routes>
+			</Router>
+		</div>
+	);
+}
+
+export default App;
