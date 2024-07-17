@@ -26,8 +26,8 @@ const Header = () => {
                     <i className="fal fa-times"></i>
                 </button>
                 <div className="mobile-logo">
-                    <a href="index.html">
-                        <img src="assets/img/logo.svg" alt="Webteck" />
+                    <a href="/">
+                        <img src="assets/img/warrgyizmorsch-logo2.png" alt="warrgyizmorsch" style={{ height: '100px', width: 'auto'}}/>
                     </a>
                 </div>
                 <div className="th-mobile-menu">
@@ -39,61 +39,36 @@ const Header = () => {
                                 Services<span className="th-mean-expand"></span>
                             </a>
                             <ul className={`sub-menu th-submenu ${openSubMenu === 1 ? 'th-open' : ''}`} style={{ display: openSubMenu === 1 ? 'block' : 'none' }}>
-                                <li><a href="/services">Services</a></li>
-                                <li><a href="service-details.html">Services Details</a></li>
+                                <li><a href="/services">All Services</a></li>
+                                <li><a href="/">Accounting & Bookkeeping Services</a></li>
+                                <li><a href="/">Content Writing Services</a></li>
+                                <li><a href="/">Data Management Services</a></li>
+                                <li><a href="/">E Commerce Services</a></li>
+                                <li><a href="/">Omni Support Services</a></li>
+                                <li><a href="/">Virtual Learning Services</a></li>
+                                <li><a href="/">Voice Support Services</a></li>
+                                <li><a href="/">Web Design & Development Services</a></li>
+                                <li><a href="/">Digital Marketing Services</a></li>
                             </ul>
                         </li>
-                        <li className={`menu-item-has-children th-item-has-children ${openSubMenu === 2 ? 'th-active' : ''}`}>
-                            <a href="#" onClick={() => toggleSubMenu(2)}>
-                                Pages<span className="th-mean-expand"></span>
-                            </a>
-                            <ul className={`sub-menu th-submenu ${openSubMenu === 2 ? 'th-open' : ''}`} style={{ display: openSubMenu === 2 ? 'block' : 'none' }}>
-                                <li className={`menu-item-has-children th-item-has-children ${openSubMenu === 3 ? 'th-active' : ''}`}>
-                                    <a href="#" onClick={() => toggleSubMenu(3)}>
-                                        Shop<span className="th-mean-expand"></span>
-                                    </a>
-                                    <ul className={`sub-menu th-submenu ${openSubMenu === 3 ? 'th-open' : ''}`} style={{ display: openSubMenu === 3 ? 'block' : 'none' }}>
-                                        <li><a href="shop.html">Shop</a></li>
-                                        <li><a href="shop-details.html">Shop Details</a></li>
-                                        <li><a href="cart.html">Cart Page</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="team-details.html">Team Details</a></li>
-                                <li><a href="project.html">Project</a></li>
-                                <li><a href="project-details.html">Project Details</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="faq.html">Faq Page</a></li>
-                                <li><a href="error.html">Error Page</a></li>
-                            </ul>
-                        </li>
-                        <li className={`menu-item-has-children th-item-has-children ${openSubMenu === 4 ? 'th-active' : ''}`}>
-                            <a href="#" onClick={() => toggleSubMenu(4)}>
-                                Blog<span className="th-mean-expand"></span>
-                            </a>
-                            <ul className={`sub-menu th-submenu ${openSubMenu === 4 ? 'th-open' : ''}`} style={{ display: openSubMenu === 4 ? 'block' : 'none' }}>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/">Career</a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/">Gallery</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <header class="th-header header-layout4 header-absolute" style={{ position: 'sticky'}}>
-            <div className="header-top pb-2" style={{ background: '#3d005b'}}>
+        <header class="th-header header-layout4 header-absolute">
+            <div className="header-top" style={{ background: 'white'}}>
                 <div className="container">
                     <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
                         <div className="col-auto d-none d-lg-block">
                             <div className="header-links">
                                 <ul>
-                                    <li><i className="fas fa-phone"></i><a href="tel:+1539873657">+91 92578 74994</a></li>
-                                    <li><i className="fas fa-phone"></i><a href="tel:+1539873657">+91 92578 74994</a></li>
-                                    <li><i className="fas fa-envelope"></i><a href="mailto:info@creativeandinnovative.com">info@creativeandinnovative.com</a></li>
+                                    <li><i className="fas fa-phone"></i><a href="tel:+442030533844">+44 2030533844</a></li>
+                                    <li><i className="fas fa-phone"></i><a href="tel:+919257874994">+91 9257874994</a></li>
+                                    <li><i className="fas fa-envelope"></i><a href="mailto:info@warrgyizmorsch.com">info@warrgyizmorsch.com</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -109,15 +84,15 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div class="sticky-wrapper" style={{ background: '#7e2eb2'}}>
+            <div class="sticky-wrapper" style={{ background: ''}}>
                 <div class="menu-area">
                     <div class="container th-container5">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a class="icon-masking" href="index.html">
+                                    <a class="icon-masking" href="/">
                                         {/* <span data-mask-src="assets/img/logo-white.svg" class="mask-icon"></span> */}
-                                        <img src="assets/img/logo-white.svg" alt="Webteck" />
+                                        <img src="assets/img/warrgyizmorsch-logo.png" alt="warrgyizmorsch" style={{ height: '50px', width: 'auto', background: 'none'}} />
                                     </a>
                                 </div>
                             </div>
@@ -127,43 +102,23 @@ const Header = () => {
                                         <li><a href="/">Home</a></li>
                                         <li><a href="/about">About Us</a></li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Services</a>
+                                            <a href="/services">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Services</a></li>
-                                                <li><a href="service-details.html">Services Details</a></li>
+                                                <li><a href="/">Accounting & Bookkeeping Services</a></li>
+                                                <li><a href="/">Content Writing Services</a></li>
+                                                <li><a href="/">Data Management Services</a></li>
+                                                <li><a href="/">E Commerce Services</a></li>
+                                                <li><a href="/">Omni Support Services</a></li>
+                                                <li><a href="/">Virtual Learning Services</a></li>
+                                                <li><a href="/">Voice Support Services</a></li>
+                                                <li><a href="/">Web Design & Development Services</a></li>
+                                                <li><a href="/">Digital Marketing Services</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Shop</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="shop.html">Shop</a></li>
-                                                        <li><a href="shop-details.html">Shop Details</a></li>
-                                                        <li><a href="cart.html">Cart Page</a></li>
-                                                        <li><a href="checkout.html">Checkout</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-details.html">Project Details</a></li>
-                                                <li><a href="gallery.html">Gallery</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="faq.html">Faq Page</a></li>
-                                                <li><a href="error.html">Error Page</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/">Career</a></li>
+                                        <li><a href="/">Blog</a></li>
+                                        <li><a href="/contact">Contact Us</a></li>
+                                        <li><a href="/">Gallery</a></li>                                        
                                     </ul>
                                 </nav>
                                 <button type="button" class="th-menu-toggle d-block d-lg-none" onClick={toggleMenu}>
@@ -172,7 +127,7 @@ const Header = () => {
                             </div>
                             <div class="col-auto d-none d-lg-inline-block">
                                 <div class="header-button">
-                                    <a href="contact.html" class="th-btn style6 style-radius">Get Started</a>
+                                    <a href="/contact" class="th-btn style6 style-radius">Get Started</a>
                                 </div>
                             </div>
                         </div>
