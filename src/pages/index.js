@@ -86,6 +86,424 @@ const Index = () => {
         `,
         
     ];
+    const cardData2 = [
+        `
+        <div class="title-area mb-40">
+            <span class="sub-title style1 text-white">Our Services</span>
+            <h5 class="sec-title text-white">
+                Simplified hiring solutions for your everyday business needs! Ranging from virtual assistants, business process, web and mobile app services.
+            </h5>
+        </div>
+        <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
+        `,
+        `
+        <div class="title-area mb-40">
+            <span class="sub-title style1 text-white">Vision Mission & Values</span>
+            <h5 class="sec-title text-white">
+                Our mission, vision and values are the core foundation of our success and commitment to excellence.
+            </h5>
+        </div>
+        <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
+        `,
+        `
+        <div class="title-area mb-40">
+            <span class="sub-title style1 text-white">Security Measures</span>
+            <h5 class="sec-title text-white">
+                Our network and security department help protect client data and provide security against common IT risks.
+            </h5>
+        </div>
+        <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
+        `,
+        
+    ];
+    const cardData3 = [
+        /*`
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_1.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Web Development</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Intrinsicly redefine competitive e-business before
+                        adaptive potentialiti. Professionally build progressive users with.
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_2.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">UI/UX Design</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Intrinsicly redefine competitive e-business before
+                        adaptive potentialiti. Professionally build progressive users with.
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Digital Marketing</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Intrinsicly redefine competitive e-business before
+                        adaptive potentialiti. Professionally build progressive users with.
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_4.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Business Analysis</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Intrinsicly redefine competitive e-business before
+                        adaptive potentialiti. Professionally build progressive users with.
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,*/
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Voice support</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        When you're looking to make your business stand out, voice assistance services add 
+                        the missing feature...
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Omni Support</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        In German it is "der Kunde ist König" (customer is king) or in Japanese, it is 
+                        "okyakusamawakamisamadesu"...
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Virtual Learning</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        In the digital age, doing mundane tasks within the same organization is now rare. 
+                        It is difficult to manage all aspects ...
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Accounting and Book Keeping</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Finance accounting and bookkeeping services, is extremely important aspect for 
+                        any business and certainly requires time..
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">E Commerce services</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Maintaining a stable sales volume is the primary goal of an online seller. However, it is 
+                        difficult to achieve this unless ...
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Data management</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        To be an efficient fuel source for businesses, data must be managed efficiently. Data management 
+                        services are...
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Website Design/Development</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        A web design application development company that helps businesses build strong customer
+                         profiles and reaches potential...
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Content Writing</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Content writing is all about drafting thoughts and business ideas on a paper. 
+                        it is the process of planning, researching, ...
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+        `,
+    ];
+    const cardData4 = [
+        `
+        <div class="swiper-slide">
+            <div class="testi-card">
+                <div class="testi-card_review">
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                </div>
+                <p class="testi-card_text">
+                    “Phosfluorescently reinvent prospective metrics
+                    before granular schema. Professionally metrics before expedite
+                    client-centric methods of empow ment whereas effective solut ion.”
+                </p>
+                <div class="testi-card_profile">
+                    <div class="testi-card_avater">
+                        <img src="assets/img/testimonial/testi_1_1.jpg" alt="testimonial">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="testi-card_name">Alex Farnandes</h3>
+                        <span class="testi-card_desig">UI/UX Designer</span>
+                    </div>
+                </div>
+                <div class="testi-card_quote">
+                    <img src="assets/img/icon/quote_left.svg" alt="quote">
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="testi-card">
+                <div class="testi-card_review">
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                </div>
+                <p class="testi-card_text">
+                    “Dnosflu orescent reinvent prospective metrics before
+                    granular schema. Professionally metrics before expedite client-centric
+                    methods of empow ment whereas effective coverless.”
+                </p>
+                <div class="testi-card_profile">
+                    <div class="testi-card_avater">
+                        <img src="assets/img/testimonial/testi_1_2.jpg" alt="testimonial">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="testi-card_name">Mariana Sonia</h3>
+                        <span class="testi-card_desig">CEO at Corola</span>
+                    </div>
+                </div>
+                <div class="testi-card_quote">
+                    <img src="assets/img/icon/quote_left.svg" alt="quote">
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="testi-card">
+                <div class="testi-card_review">
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                </div>
+                <p class="testi-card_text">
+                    “The best service reinvent prospective metrics before
+                    granular schema. Professionally metrics before expedite client-centric
+                    methods of empow ment whereas effective turnings.”
+                </p>
+                <div class="testi-card_profile">
+                    <div class="testi-card_avater">
+                        <img src="assets/img/testimonial/testi_1_3.jpg" alt="testimonial">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="testi-card_name">Abraham Khalil</h3>
+                        <span class="testi-card_desig">UI/UX Designer</span>
+                    </div>
+                </div>
+                <div class="testi-card_quote">
+                    <img src="assets/img/icon/quote_left.svg" alt="quote">
+                </div>
+            </div>
+        </div>
+        `,
+        `
+        <div class="swiper-slide">
+            <div class="testi-card">
+                <div class="testi-card_review">
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                    <i class="fa-solid fa-star-sharp"></i>
+                </div>
+                <p class="testi-card_text">
+                    “Five star he reinvent prospective metrics before
+                    granular schema. Professionally metrics before expedite client-centric
+                    methods of empow ment whereas effective gotoning.”
+                </p>
+                <div class="testi-card_profile">
+                    <div class="testi-card_avater">
+                        <img src="assets/img/testimonial/testi_1_4.jpg" alt="testimonial">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="testi-card_name">Alexa Jenifer</h3>
+                        <span class="testi-card_desig">CEO at Morosto</span>
+                    </div>
+                </div>
+                <div class="testi-card_quote">
+                    <img src="assets/img/icon/quote_left.svg" alt="quote">
+                </div>
+            </div>
+        </div>
+        `
+    ];
     return (
         <>
             <div class="th-hero-wrapper hero-5" id="hero">
@@ -199,6 +617,323 @@ const Index = () => {
                     <img src="assets/img/hero/hero_shape_3_1.png" alt="shape" />
                 </div>
             </div>
+            <div class="position-relative overflow-hidden" style={{ backgroundColor: '#f8f9fa'}}>
+                <div class="container th-container5">
+                    <div class="about-sec4 position-relative overflow-hidden" style={{ backgroundImage: `url('assets/img/normal/about_4.jpg')` }}data-bg-src="">
+                        <div class="about-shape4">
+                            <div class="marquee-wrapper">
+                                <div class="marquee">
+                                    <div class="marquee-group">
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                    </div>
+                                    <div aria-hidden="true" class="marquee-group">
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                    </div>
+                                </div>
+                                <div class="marquee marquee--reverse">
+                                    <div class="marquee-group">
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                    </div>
+                                    <div aria-hidden="true" class="marquee-group">
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                    </div>
+                                </div>
+                                <div class="marquee">
+                                    <div class="marquee-group">
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                    </div>
+                                    <div aria-hidden="true" class="marquee-group">
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                        <div class="text">Adaptability</div>
+                                        <div class="text">Creative Innovation</div>
+                                        <div class="text">4000+ partners</div>
+                                        <div class="text">15M Customer Worldwide</div>
+                                        <div class="text">Engagement</div>
+                                        <div class="text">Ethical Practices</div>
+                                        <div class="text">Communication</div>
+                                        <div class="text">Personalization</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">50+ Countries</div>
+                                        <div class="text">Expertise</div>
+                                        <div class="text">Innovation</div>
+                                        <div class="text">Inclusivity</div>
+                                        <div class="text">Diversity</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-area4">
+                            <div class="title-area-wrapper">                                
+                                <div className="slider-area">
+                                    <ProductSlider cardData={cardData2} slidesPerView={1} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="" id="service-sec">
+                <div class="round-container gr-bg3 space">
+                    <div class="container">                        
+                        <div class="title-area text-center">
+                            <span class="sub-title">OUR SERVICES</span>
+                            <h2 class="sec-title">We Provide Exclusive Services</h2>
+                        </div>
+                        <div class="slider-area">
+                            <ProductSlider cardData={cardData3} slidesPerView={3} />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="">
+                <div class="container space">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="col-lg-6 mb-30 mb-lg-0">
+                            <div class="img-box7">
+                                <div class="img1">
+                                    <img src="assets/img/normal/why_2_1.png" alt="Why" />
+                                </div>
+                                <div class="shape1">
+                                    <img src="assets/img/normal/why_3_2.png" alt="About" />
+                                </div>
+                                <div class="shape2">
+                                    <img src="assets/img/normal/why_3_3.png" alt="About" />
+                                </div>
+                                <div class="color-animate"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-lg-start text-center">
+                            <div class="title-area mb-35"><span class="sub-title">WHY CHOOSE US</span>
+                                <h2 class="sec-title">Business Process Outsourcing Services</h2>
+                            </div>                            
+                            <div class="two-column mb-40 list-center">
+                                <div class="checklist style2">
+                                    <ul>
+                                        <li><img src="assets/img/icon/check_1.png" alt="icon" /> Dedicated Staff</li>
+                                        <li><img src="assets/img/icon/check_1.png" alt="icon" /> 24/7 Online Support</li>
+                                    </ul>
+                                </div>
+                                <div class="checklist style2">
+                                    <ul>
+                                        <li><img src="assets/img/icon/check_1.png" alt="icon" /> Flexible Plans</li>
+                                        <li><img src="assets/img/icon/check_1.png" alt="icon" /> Zero Sick Days</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="mt-n2 mb-30">
+                                If you are a business that is growing having an unexpected or seasonal workflow 
+                                doing cost optimization, expanding, planning to take the inhouse team to the next 
+                                level or a start-up, we will be happy to become your partners in achieving your 
+                                business goals. We can provide you with a dedicated team/staff to manage your 
+                                recurring and daily operational activities.
+                            </p>
+                            <a href="/services" class="th-btn">LEARN MORE<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape-mockup" data-bottom="0" data-right="0">
+                    <div class="particle-3" id="particle-4"></div>
+                </div>
+            </div>
+            <section class="overflow-hidden space" style={{ backgroundImage: `url('assets/img/bg/contact_bg_1.png')` }} data-bg-src="" data-overlay="overlay1" data-opacity="5">
+                <div class="container z-index-common">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5">
+                            <div class="pe-xxl-5 text-xl-start text-center">
+                                <div class="title-area mb-35">
+                                    <span class="sub-title">                                        
+                                        TESTIMONIALS
+                                    </span>
+                                    <h2 class="sec-title text-white">
+                                        Let's Here What Are The Customer 
+                                        <span class="text-theme">Saying</span>
+                                    </h2>
+                                </div>
+                                <p class="mt-n2 mb-35 text-white">
+                                    Appropriately envisioneer leveraged information through 2.0
+                                    communities. Synergistically parallel task inexpensive products whereas 
+                                    cross-media ideas.
+                                </p>
+                                <a href="about.html" class="th-btn style3 shadow-none">
+                                    VIEW MORE
+                                    <i class="fa-regular fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 mt-40 mt-xl-0">
+                            <div class="testi-card-area slider-area">                                
+                                <div class="testi-thumb-wrap">
+                                    <div class="testi-thumb testi-card-tab" data-slider-tab="#testiSlide1">
+                                        <div class="tab-btn active">
+                                            <img src="assets/img/testimonial/testi_1_1.jpg" alt="Image" />
+                                        </div>
+                                        <div class="tab-btn">
+                                            <img src="assets/img/testimonial/testi_1_2.jpg" alt="Image" />
+                                        </div>
+                                        <div class="tab-btn">
+                                            <img src="assets/img/testimonial/testi_1_3.jpg" alt="Image" />
+                                        </div>
+                                        <div class="tab-btn">
+                                            <img src="assets/img/testimonial/testi_1_4.jpg" alt="Image" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-wrapper">
+                                    <ProductSlider cardData={cardData4} slidesPerView={1} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
