@@ -209,7 +209,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/csp.avif" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -231,7 +231,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/omni.jpg" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -253,7 +253,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/virtual.jpg" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -275,7 +275,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/accountandbook.jpg" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -297,7 +297,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/e-commerce.avif" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -319,7 +319,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/data-manage.avif" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -341,7 +341,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/website.avif" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -363,7 +363,7 @@ const Index = () => {
         <div class="swiper-slide">
             <div class="service-3d">
                 <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/content.avif" alt="Icon">
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
@@ -503,6 +503,223 @@ const Index = () => {
             </div>
         </div>
         `
+    ];
+    const cardData5 = [
+        `<div class="swiper-slide">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <a href="blog.html">
+                            <i class="fal fa-calendar-days"></i>
+                            15 Jan, 2024
+                        </a> 
+                        <a href="blog.html">
+                            <i class="fal fa-comments"></i>
+                            2 Comments
+                        </a>
+                    </div>
+                    <h3 class="box-title">
+                        <a href="blog-details.html">
+                            How digital marketing is different from traditional marketing?
+                        </a>
+                    </h3>
+                    <p class="blog-text">
+                        Traditional marketing is considered when marketing activities for an 
+                        organization are undertaken in a conventional way such as by television,
+                    </p>
+                    <div class="blog-bottom"> 
+                        <a href="blog-details.html" class="line-btn">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <a href="blog.html">
+                            <i class="fal fa-calendar-days"></i>
+                            15 Jan, 2024
+                        </a> 
+                        <a href="blog.html">
+                            <i class="fal fa-comments"></i>
+                            2 Comments
+                        </a>
+                    </div>
+                    <h3 class="box-title">
+                        <a href="blog-details.html">
+                            How digital marketing helps in business growth?
+                        </a>
+                    </h3>
+                    <p class="blog-text">
+                        With the continues changing of working culture globally Digital 
+                        marketing has taken place of conventional marketing. With the great 
+                        evaluation of modern technology, small and medium 
+                    </p>
+                    <div class="blog-bottom"> 
+                        <a href="blog-details.html" class="line-btn">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <a href="blog.html">
+                            <i class="fal fa-calendar-days"></i>
+                            15 Jan, 2024
+                        </a> 
+                        <a href="blog.html">
+                            <i class="fal fa-comments"></i>
+                            2 Comments
+                        </a>
+                    </div>
+                    <h3 class="box-title">
+                        <a href="blog-details.html">
+                            Top Digital Marketing Strategies for gym
+                        </a>
+                    </h3>
+                    <p class="blog-text">
+                        Nowadays, when people do have not much time for their nearest they do 
+                        not get enough time for self-care due to hassle in their lives. Due 
+                        to this, they face many health-related issues ...
+                    </p>
+                    <div class="blog-bottom">
+                        <a href="blog-details.html" class="line-btn">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <a href="blog.html">
+                            <i class="fal fa-calendar-days"></i>
+                            15 Jan, 2024
+                        </a> 
+                        <a href="blog.html">
+                            <i class="fal fa-comments"></i>
+                            2 Comments
+                        </a>
+                    </div>
+                    <h3 class="box-title">
+                        <a href="blog-details.html">
+                            Top 10 Digital Marketing Strategies for the startups
+                        </a>
+                    </h3>
+                    <p class="blog-text">
+                        It is very difficult to persist in the market and settle your startups when 
+                        the competition is quite high in every business, as we know due to COVIDE-19, 
+                        this time has tuned out to be ... 
+                    </p>
+                    <div class="blog-bottom">
+                        <a href="blog-details.html" class="line-btn">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <a href="blog.html">
+                            <i class="fal fa-calendar-days"></i>
+                            15 Jan, 2024
+                        </a> 
+                        <a href="blog.html">
+                            <i class="fal fa-comments"></i>
+                            2 Comments
+                        </a>
+                    </div>
+                    <h3 class="box-title">
+                        <a href="blog-details.html">
+                            Top  Digital Marketing Strategies for the product launch
+                        </a>
+                    </h3>
+                    <p class="blog-text">
+                        We all are always stay awaited for the product launch program as after paying 
+                        much attention and hard work the final day comes in life when you are ...
+                    </p>
+                    <div class="blog-bottom">
+                        <a href="blog-details.html" class="line-btn">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <a href="blog.html">
+                            <i class="fal fa-calendar-days"></i>
+                            15 Jan, 2024
+                        </a> 
+                        <a href="blog.html">
+                            <i class="fal fa-comments"></i>
+                            2 Comments
+                        </a>
+                    </div>
+                    <h3 class="box-title">
+                        <a href="blog-details.html">
+                            How does Digital Marketing Help Small Businesses?
+                        </a>
+                    </h3>
+                    <p class="blog-text">
+                        It's a fact that good marketing plays a very crucial role in 
+                        growing a business, it can enhance your business and give confidence 
+                        in continuous success...
+                    </p>
+                    <div class="blog-bottom">
+                        <a href="blog-details.html" class="line-btn">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `,
+        
     ];
     return (
         <>
@@ -933,6 +1150,113 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <div class="space" id="contact-sec" style={{ backgroundImage: `url('assets/img/bg/appointment_bg_1.jpg')` }}data-bg-src="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 pe-xxl-5 mb-40 mb-xl-0">
+                            <div class="title-area mb-35 text-xl-start text-center">                                
+                                <h2 class="sec-title">
+                                    Mobile & Web Application  <br />
+                                    <span class="text-theme">Development Services</span>
+                                </h2>
+                            </div>
+                            <div class="contact-feature-wrap mt-n2 mb-30">
+                                <div class="contact-feature">
+                                    <div class="icon-btn">
+                                        <i class="fa-solid fa-laptop-mobile"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="contact-feature_label">Responsive Software</p>
+                                    </div>
+                                </div>
+                                <div class="contact-feature">
+                                    <div class="icon-btn">
+                                        <i class="fa-solid fa-shield"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="contact-feature_label">Security & Data Protection</p>
+                                    </div>
+                                </div>
+                                <div class="contact-feature">
+                                    <div class="icon-btn">
+                                        <i class="fa-solid fa-headset"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="contact-feature_label">Support & Maintenance</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-n2 mb-30 text-xl-start text-center">
+                                Since the time software, websites and mobile applications became essential to every 
+                                business, we have been taking care of development needs. We foresee the potential of 
+                                dynamic software solutions and can turn your business idea into reality with our 
+                                development services.
+                            </p>
+                        </div>
+                        <div class="col-xl-6 ps-xl-4">
+                            <h3 class="h4 mt-n2 mb-30 text-center">Enquiry Now</h3>
+                            <form action="https://html.themeholy.com/webteck/demo/mail.php" method="POST" class="appoitment-form ajax-contact">
+                                <div class="row">
+                                    <div class="form-group col-12">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your Name" />
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your Email" />                                                
+                                    </div>                                    
+                                    <div class="form-group col-12">
+                                        <input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number" />
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write Your Message"></textarea>
+                                    </div>
+                                    <div class="form-btn col-12">
+                                        <button class="th-btn w-100">SEND A MASSAGE</button>
+                                    </div>
+                                </div>
+                                <p class="form-messages mb-0 mt-3"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="position-relative space">
+                <div class="th-bg-img" style={{ backgroundImage: `url('assets/img/bg/cta_bg_2.jpg')` }} data-bg-src="">
+                    <img src="assets/img/bg/bg_overlay_1.png" alt="overlay" />
+                </div>
+                <div class="container z-index-common">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-7 col-md-9 text-center">
+                            <div class="title-area mb-35">
+                                <span class="sub-title" style={{color: '#2c77d8'}}>
+                                    CONTACT US
+                                </span>
+                                <h2 class="sec-title text-white">
+                                    Need Any Kind Of IT Solution For 
+                                    <span class="fw-normal" style={{color: '#2c77d8'}}> Your Business?</span>
+                                </h2>
+                            </div>
+                            <a href="contact.html" class="th-btn style3">Call Now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-top-right overflow-hidden space" id="blog-sec" style={{ backgroundImage: `url('assets/img/bg/blog_bg_1.png')` }} data-bg-src="" data-overlay="overlay1" data-opacity="1">
+                <div class="container">
+                    <div class="title-area text-center">
+                        <span class="sub-title">
+                            LATEST BLOGS
+                        </span>
+                        <h2 class="sec-title">
+                            Get Every Single Update 
+                            <span class="text-theme fw-normal"> Blog</span>
+                        </h2>
+                    </div>
+                    <div class="slider-area">
+                        <ProductSlider cardData={cardData5} slidesPerView={3} />                        
+                    </div>
+                </div>
+                
             </section>
         </>
     )
