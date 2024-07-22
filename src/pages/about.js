@@ -16,42 +16,17 @@ const About = () => {
                         </ul>
                     </div>
                 </div>
-            </div> */}
-            {/* <section class="overflow-hidden bg-top-center th-radius3 m-4 mt-0 mb-0 space" id="testi-sec" style={{ backgroundImage: `url('assets/img/bg/testimonial_bg_5.jpg')` }} data-bg-src="">
-                <div class="container th-container4">
-                    <div class="row justify-content-lg-between justify-content-center align-items-end">
-                        <div class="col-xxl-4 col-xl-6">
-                            <div class="title-area text-center text-lg-start">
-                                <span class="sub-title style1 text-white">
-                                    Customer Feedbacks
-                                </span>
-                                <h2 class="sec-title text-white">See what our clients have to say</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-auto d-none d-xl-block">
-                            <div class="sec-btn">
-                                <div class="icon-box">
-                                    <button data-slider-prev="#testiSlider5" class="slider-arrow style2 default">
-                                        <i class="far fa-arrow-left"></i>
-                                    </button> 
-                                    <button data-slider-next="#testiSlider5" class="slider-arrow style2 default">
-                                        <i class="far fa-arrow-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-area"></div>
-                </div>
-            
-            </section> */}
-            <div style={{ height: '137px', backgroundColor: '#18336c'}}></div>
-            {/* <div className="breadcumb-wrapper" style={{
+            </div> */}            
+            <div style={{ height: '108px', backgroundColor: '#18336c'}}></div>
+            {/* <div className="" style={{
                     backgroundImage: `url("assets/img/bg/bg.jpg")`,
-                    backgroundPosition: 'center'
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    height: '400px'
                 }}>
-                <div className="container">
-                    <div className="" style={{ textAlign: ''}}>
+                <div className="container" style={{paddingTop: '208px'}}>
+                    <div className="" style={{ textAlign: 'center'}}>
                         <h1 className="breadcumb-title">About Us</h1>
                         <ul className="breadcumb-menu">
                             <li><a href="/">Home</a></li>

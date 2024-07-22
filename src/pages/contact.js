@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <>
-            <div style={{ height: '137px', backgroundColor: '#18336c'}}></div>
+            <div style={{ height: '108px', backgroundColor: '#18336c'}}></div>
             {/* <div class="space">
                 <div class="container">
                     <div class="row gy-4">

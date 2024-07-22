@@ -721,6 +721,89 @@ const Index = () => {
         `,
         
     ];
+    const cardData6 = [
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_1.jpeg" alt="img1" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_2.jpeg" alt="img2" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_3.jpeg" alt="img2" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_4.jpeg" alt="img4" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_5.jpeg" alt="img5" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_6.jpeg" alt="img6" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_7.jpeg" alt="img7" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_8.jpeg" alt="img8" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_9.jpeg" alt="img9" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        `<div class="swiper-slide">
+            <div class="project-box">
+                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+                    <img src="assets/img/gallery/warr/img_10.jpeg" alt="img10" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        `,
+        
+    ];
     return (
         <>
             <div class="th-hero-wrapper hero-5" id="hero">
@@ -1237,6 +1320,30 @@ const Index = () => {
                                 </h2>
                             </div>
                             <a href="contact.html" class="th-btn style3">Call Now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="overflow-hidden bg-white space" data-overlay="overlay1" data-opacity="2">
+                <div class="container th-container5">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="title-area mb-50 text-center text-md-start">
+                                <span class="sub-title">
+                                    Stories
+                                </span>
+                                <h2 class="sec-title">Our work that inspired you to work with us</h2>
+                            </div>
+                            <div class="project-btn">
+                                <a href="project.html" class="th-btn style-border style-radius">View All</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="slider-area project-slider4">                                
+                                <div class="swiper-wrapper">
+                                    <ProductSlider cardData={cardData6} slidesPerView={2} />
+                                </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -85,7 +85,7 @@ const Header = () => {
                 </div>
             </div>
             <div class="sticky-wrapper" style={{ background: ''}}>
-                <div class="menu-area">
+                <div class="menu-area p-0">
                     <div class="container th-container5">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
@@ -127,7 +127,7 @@ const Header = () => {
                             </div>
                             <div class="col-auto d-none d-lg-inline-block">
                                 <div class="header-button">
-                                    <a href="/contact" class="th-btn style6 style-radius">Get Started</a>
+                                    <a href="/contact" class="th-btn style6 style-radius" style={{ padding: '10px 20px'}}>Get Started</a>
                                 </div>
                             </div>
                         </div>
