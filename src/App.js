@@ -6,6 +6,9 @@ import Contact from './pages/contact';
 import Services from './pages/services';
 import FrontEnd from './component/Layout/Frontend/FrontEnd';
 import Error from './pages/error.js';
+import Blog from './pages/blog.js';
+import Gallery from './pages/gallery.js';
+import Career from './pages/career.js';
 
 function App() {
 	return (
@@ -18,6 +21,9 @@ function App() {
 						<Route path='/about' element={<About />} />
 						<Route path='/contact' element={<Contact />} />
 						<Route path='/services' element={<Services />} />
+						<Route path='/blog' element={<Blog />} />
+						<Route path='/gallery' element={<Gallery />} />
+						<Route path='/career' element={<Career />} />
 						
 						<Route path='*' element={<Error />} />
 					</Route>

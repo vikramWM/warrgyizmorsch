@@ -51,10 +51,10 @@ const Header = () => {
                                 <li><a href="/">Digital Marketing Services</a></li>
                             </ul>
                         </li>
-                        <li><a href="/">Career</a></li>
-                        <li><a href="/">Blog</a></li>
+                        <li><a href="/career">Career</a></li>
+                        <li><a href="/blog">Blog</a></li>
                         <li><a href="/contact">Contact Us</a></li>
-                        <li><a href="/">Gallery</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
                     </ul>
                 </div>
             </div>
@@ -115,10 +115,10 @@ const Header = () => {
                                                 <li><a href="/">Digital Marketing Services</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/">Career</a></li>
-                                        <li><a href="/">Blog</a></li>
+                                        <li><a href="/career">Career</a></li>
+                                        <li><a href="/blog">Blog</a></li>
                                         <li><a href="/contact">Contact Us</a></li>
-                                        <li><a href="/">Gallery</a></li>                                        
+                                        <li><a href="/gallery">Gallery</a></li>                                        
                                     </ul>
                                 </nav>
                                 <button type="button" class="th-menu-toggle d-block d-lg-none" onClick={toggleMenu}>

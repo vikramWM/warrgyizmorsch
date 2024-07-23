@@ -52,7 +52,7 @@ const Footer = () => {
                                     <h3 class="widget_title">Short Links</h3>
                                     <div class="menu-all-pages-container">
                                         <ul class="menu">
-                                            <li><a href="/">Blogs</a></li>
+                                            <li><a href="/blog">Blogs</a></li>
                                             <li><a href="/">Digital Marketing Pricing</a></li>
                                             <li><a href="/">Privacy Policy</a></li>
                                             <li><a href="/">Terms & Conditions</a></li>

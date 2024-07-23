@@ -89,7 +89,7 @@ const Services = () => {
                                             </div>
                                             <div class="service-3d_content">
                                                 <h3 class="box-title">
-                                                    <a href="service-details.html">Accounting and Book Keeping</a>
+                                                    <a href="service-details.html">Accounting and <br />Book Keeping</a>
                                                 </h3>
                                                 <p class="service-3d_text">
                                                     Finance accounting and bookkeeping services, is extremely important aspect for 
@@ -111,7 +111,7 @@ const Services = () => {
                                             </div>
                                             <div class="service-3d_content">
                                                 <h3 class="box-title">
-                                                    <a href="service-details.html">E Commerce services</a>
+                                                    <a href="service-details.html">E Commerce <br /> services</a>
                                                 </h3>
                                                 <p class="service-3d_text">
                                                     Maintaining a stable sales volume is the primary goal of an online seller. However, it is 
@@ -133,11 +133,11 @@ const Services = () => {
                                             </div>
                                             <div class="service-3d_content">
                                                 <h3 class="box-title">
-                                                    <a href="service-details.html">Data management</a>
+                                                    <a href="service-details.html">Data <br /> management</a>
                                                 </h3>
                                                 <p class="service-3d_text">
                                                     To be an efficient fuel source for businesses, data must be managed efficiently. Data management 
-                                                    services are...
+                                                    services ...
                                                 </p>
                                                 <a href="service-details.html" class="th-btn">
                                                     Read More
@@ -157,11 +157,11 @@ const Services = () => {
                                             </div>
                                             <div class="service-3d_content">
                                                 <h3 class="box-title">
-                                                    <a href="service-details.html">Website Design/Development</a>
+                                                    <a href="service-details.html">Website Development</a>
                                                 </h3>
                                                 <p class="service-3d_text">
                                                     A web design application development company that helps businesses build strong customer
-                                                    profiles and reaches potential...
+                                                    profiles and reaches ...
                                                 </p>
                                                 <a href="service-details.html" class="th-btn">
                                                     Read More
