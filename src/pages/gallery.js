@@ -4,7 +4,7 @@ import 'react-image-lightbox/style.css';
 
 const images = [
     "assets/img/gallery/warr/img_1.jpeg",
-    "assets/img/gallery/warr/img_2.jpeg",
+    "assets/img/gallery/warr/IMG_6615.jpg",
     "assets/img/gallery/warr/img_3.jpeg",
     "assets/img/gallery/warr/img_4.jpeg",
     "assets/img/gallery/warr/img_5.jpeg",
