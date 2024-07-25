@@ -213,13 +213,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Voice support</a>
+                        Voice support
                     </h3>
                     <p class="service-3d_text">
                         When you're looking to make your business stand out, voice assistance services add 
                         the missing feature...
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-voice-support" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -235,13 +235,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Omni Support</a>
+                        Omni Support
                     </h3>
                     <p class="service-3d_text">
                         In German it is "der Kunde ist König" (customer is king) or in Japanese, it is 
                         "okyakusamawakamisamadesu"...
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-omni-support" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -257,13 +257,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Virtual Learning</a>
+                        Virtual Learning
                     </h3>
                     <p class="service-3d_text">
                         In the digital age, doing mundane tasks within the same organization is now rare. 
                         It is difficult to manage all aspects ...
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-virtual-learning" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -279,13 +279,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Accounting and Book Keeping</a>
+                        Accounting and Book Keeping
                     </h3>
                     <p class="service-3d_text">
                         Finance accounting and bookkeeping services, is extremely important aspect for 
                         any business and certainly requires time..
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-accounting-and-bookkeeping" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -301,13 +301,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">E Commerce services</a>
+                        E Commerce services
                     </h3>
                     <p class="service-3d_text">
                         Maintaining a stable sales volume is the primary goal of an online seller. However, it is 
                         difficult to achieve this unless ...
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-e-commerce" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -323,13 +323,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Data management</a>
+                        Data management
                     </h3>
                     <p class="service-3d_text">
                         To be an efficient fuel source for businesses, data must be managed efficiently. Data management 
                         services are...
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-data-management" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -345,13 +345,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Website Design/Development</a>
+                        Website Design And Development
                     </h3>
                     <p class="service-3d_text">
                         A web design application development company that helps businesses build strong customer
                          profiles and reaches potential...
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-website-design-development" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -367,13 +367,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Content Writing</a>
+                        Content Writing
                     </h3>
                     <p class="service-3d_text">
                         Content writing is all about drafting thoughts and business ideas on a paper. 
                         it is the process of planning, researching, ...
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-content-writing" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -389,13 +389,13 @@ const Index = () => {
                 </div>
                 <div class="service-3d_content">
                     <h3 class="box-title">
-                        <a href="service-details.html">Digital Marketing</a>
+                        Digital Marketing
                     </h3>
                     <p class="service-3d_text">
                         Intrinsicly redefine competitive e-business before
                         adaptive potentialiti. Professionally build progressive users with.
                     </p>
-                    <a href="service-details.html" class="th-btn">
+                    <a href="/service-digital-marketing" class="th-btn">
                         Read More
                         <i class="fas fa-arrow-right ms-2"></i>
                     </a>
@@ -1163,12 +1163,6 @@ const Index = () => {
                                 <div class="img1">
                                     <img src="assets/img/normal/why_2_1.png" alt="Why" />
                                 </div>
-                                <div class="shape1">
-                                    <img src="assets/img/normal/why_3_2.png" alt="About" />
-                                </div>
-                                <div class="shape2">
-                                    <img src="assets/img/normal/why_3_3.png" alt="About" />
-                                </div>
                                 <div class="color-animate"></div>
                             </div>
                         </div>
@@ -1357,7 +1351,7 @@ const Index = () => {
                                 <h2 class="sec-title">Our work that inspired you to work with us</h2>
                             </div>
                             <div class="project-btn">
-                                <a href="project.html" class="th-btn style-border style-radius">View All</a>
+                                <a href="/gallery" class="th-btn style-border style-radius">View All</a>
                             </div>
                         </div>
                         <div class="col-xl-8">

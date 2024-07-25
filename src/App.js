@@ -15,6 +15,9 @@ import AccountingAndBookkeepingServices from './pages/services/accounting_and_bo
 import DataManagement from './pages/services/data_management.js';
 import WebsiteDesignDevelopment from './pages/services/website-design_development.js';
 import ContentWriting from './pages/services/content_writing.js';
+import E_CommerceServices from './pages/services/e-commerce_services.js';
+import VoiceSupport from './pages/services/voice_support.js';
+import DigitalMarketing from './pages/services/digital_marketing.js';
 
 function App() {
 	return (
@@ -29,10 +32,13 @@ function App() {
 						<Route path='/services' element={<Services />} />
 						<Route path='/service-omni-support' element={<OmniSupport />} />
 						<Route path='/service-virtual-learning' element={<VirtualLearning />} />
-						<Route path='/service-accounting-and-bookkeeping-services' element={<AccountingAndBookkeepingServices />} />
+						<Route path='/service-accounting-and-bookkeeping' element={<AccountingAndBookkeepingServices />} />
 						<Route path='/service-data-management' element={<DataManagement />} />
 						<Route path='/service-website-design-development' element={<WebsiteDesignDevelopment />} />
 						<Route path='/service-content-writing' element={<ContentWriting />} />
+						<Route path='/service-e-commerce' element={<E_CommerceServices />} />
+						<Route path='/service-voice-support' element={<VoiceSupport />} />
+						<Route path='/service-digital-marketing' element={<DigitalMarketing />} />
 						<Route path='/blog' element={<Blog />} />
 						<Route path='/gallery' element={<Gallery />} />
 						<Route path='/career' element={<Career />} />

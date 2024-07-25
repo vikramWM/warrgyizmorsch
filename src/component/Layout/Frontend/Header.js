@@ -40,15 +40,15 @@ const Header = () => {
                             </a>
                             <ul className={`sub-menu th-submenu ${openSubMenu === 1 ? 'th-open' : ''}`} style={{ display: openSubMenu === 1 ? 'block' : 'none' }}>
                                 <li><a href="/services">All Services</a></li>
-                                <li><a href="/service-accounting-and-bookkeeping-services">Accounting & Bookkeeping Services</a></li>
+                                <li><a href="/service-accounting-and-bookkeeping">Accounting & Bookkeeping Services</a></li>
                                 <li><a href="/service-content-writing">Content Writing Services</a></li>
                                 <li><a href="/service-data-management">Data Management Services</a></li>
-                                <li><a href="/">E Commerce Services</a></li>
+                                <li><a href="/service-e-commerce">E Commerce Services</a></li>
                                 <li><a href="/service-omni-support">Omni Support Services</a></li>
                                 <li><a href="/service-virtual-learning">Virtual Learning Services</a></li>
-                                <li><a href="/">Voice Support Services</a></li>
+                                <li><a href="/service-voice-support">Voice Support Services</a></li>
                                 <li><a href="/service-website-design-development">Web Design & Development Services</a></li>
-                                <li><a href="/">Digital Marketing Services</a></li>
+                                <li><a href="/service-digital-marketing">Digital Marketing Services</a></li>
                             </ul>
                         </li>
                         <li><a href="/career">Career</a></li>
@@ -104,15 +104,15 @@ const Header = () => {
                                         <li class="menu-item-has-children">
                                             <a href="/services">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="/service-accounting-and-bookkeeping-services">Accounting & Bookkeeping Services</a></li>
+                                                <li><a href="/service-accounting-and-bookkeeping">Accounting & Bookkeeping Services</a></li>
                                                 <li><a href="/service-content-writing">Content Writing Services</a></li>
                                                 <li><a href="/service-data-management">Data Management Services</a></li>
-                                                <li><a href="/">E Commerce Services</a></li>
+                                                <li><a href="/service-e-commerce">E Commerce Services</a></li>
                                                 <li><a href="/service-omni-support">Omni Support Services</a></li>
                                                 <li><a href="/service-virtual-learning">Virtual Learning Services</a></li>
-                                                <li><a href="/">Voice Support Services</a></li>
+                                                <li><a href="/service-voice-support">Voice Support Services</a></li>
                                                 <li><a href="/service-website-design-development">Web Design & Development Services</a></li>
-                                                <li><a href="/">Digital Marketing Services</a></li>
+                                                <li><a href="/service-digital-marketing">Digital Marketing Services</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="/career">Career</a></li>
