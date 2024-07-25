@@ -57,7 +57,7 @@ const Services = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-md-12 col-lg-12 col-xl-4 p-4">
+                                <div className="col-12 col-md-12 col-lg-6 col-xl-4 p-4">
                                     <div class="swiper-slide">
                                         <div class="service-3d h-100">
                                             <div class="service-3d_icon">
@@ -79,8 +79,8 @@ const Services = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="row ">
+                            {/* </div>
+                            <div className="row "> */}
                                 <div className="col-12 col-md-12 col-lg-6 col-xl-4 p-4">
                                     <div class="swiper-slide">
                                         <div class="service-3d h-100">
@@ -125,7 +125,7 @@ const Services = () => {
                                         </div>
                                     </div> 
                                 </div>
-                                <div className="col-12 col-md-12 col-lg-12 col-xl-4 p-4">
+                                <div className="col-12 col-md-12 col-lg-6 col-xl-4 p-4">
                                     <div class="swiper-slide">
                                         <div class="service-3d h-100">
                                             <div class="service-3d_icon">
@@ -147,8 +147,8 @@ const Services = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="row ">
+                            {/* </div>
+                            <div className="row "> */}
                                 <div className="col-12 col-md-12 col-lg-6 col-xl-4 p-4">
                                     <div class="swiper-slide">
                                         <div class="service-3d h-100">
@@ -184,6 +184,28 @@ const Services = () => {
                                                 <p class="service-3d_text">
                                                     Content writing is all about drafting thoughts and business ideas on a paper. 
                                                     it is the process of planning, researching, ...
+                                                </p>
+                                                <a href="service-details.html" class="th-btn">
+                                                    Read More
+                                                    <i class="fas fa-arrow-right ms-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div className="col-12 col-md-12 col-lg-6 col-xl-4 p-4">
+                                    <div class="swiper-slide">
+                                        <div class="service-3d h-100">
+                                            <div class="service-3d_icon">
+                                                <img style={{ width: 'auto', height: '150px', objectFit: 'cover'}} src="assets/img/icon/service_3d_3.png" alt="Icon" />
+                                            </div>
+                                            <div class="service-3d_content">
+                                                <h3 class="box-title">
+                                                    <a href="service-details.html">Digital Marketing</a>
+                                                </h3>
+                                                <p class="service-3d_text">
+                                                    Intrinsicly redefine competitive e-business before
+                                                    adaptive potentialiti. Professionally build progressive users with. ...
                                                 </p>
                                                 <a href="service-details.html" class="th-btn">
                                                     Read More

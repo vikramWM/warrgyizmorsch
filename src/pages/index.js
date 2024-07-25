@@ -381,6 +381,28 @@ const Index = () => {
             </div>
         </div>        
         `,
+        `
+        <div class="swiper-slide">
+            <div class="service-3d">
+                <div class="service-3d_icon">
+                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/service_3d_3.png" alt="Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 class="box-title">
+                        <a href="service-details.html">Digital Marketing</a>
+                    </h3>
+                    <p class="service-3d_text">
+                        Intrinsicly redefine competitive e-business before
+                        adaptive potentialiti. Professionally build progressive users with.
+                    </p>
+                    <a href="service-details.html" class="th-btn">
+                        Read More
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `,
     ];
     const cardData4 = [
         `
