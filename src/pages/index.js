@@ -1142,8 +1142,8 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-            <section class="" id="service-sec">
-                <div class="round-container gr-bg3 space">
+            <section class="gr-bg3" id="service-sec">
+                <div class="round-container space">
                     <div class="container">                        
                         <div class="title-area text-center">
                             <span class="sub-title">OUR SERVICES</span>
