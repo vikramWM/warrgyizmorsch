@@ -74,7 +74,7 @@ const Contact = () => {
                                     <span class="sub-title">Contact Info</span>
                                     <h2 class="sec-title">Warrgyizmorsch private limited</h2>
                                 </div>
-                                <div class="checklist style4 mb-20 list-center">
+                                {/* <div class="checklist style4 mb-20 list-center">
                                     <ul>
                                         <li>
                                             <i class="fas fa-location-dot"></i>
@@ -95,6 +95,31 @@ const Contact = () => {
                                             <a href="tel:+919784710045">+91 9784710045</a>
                                         </li>
                                     </ul>
+                                </div> */}
+                                <div class="checklist style4 mb-20 list-center">
+                                    <div className='row'>
+                                        <div className='col-12 col-md-6 col-lg-6 card p-2'>
+                                            <div className='text-center' style={{color: '#18336c', fontSize: '20px'}}><i class="fas fa-envelope"></i></div>
+                                            <div className='text-center' style={{color: 'black', fontSize: '20px'}}><b>Send An Email :</b></div>
+                                            <div className='text-center'><a href="mailto:info@warrgyizmorsch.com">info@warrgyizmorsch.com</a></div>                                                                                                                                        
+                                        </div>
+                                        <div className='col-12 col-md-6 col-lg-6 card p-2'>
+                                            <div className='text-center' style={{color: '#18336c', fontSize: '20px'}}><i class="fas fa-phone"></i></div>
+                                            <div className='text-center' style={{color: 'black', fontSize: '20px'}}><b>Call Us Anytime:</b></div>
+                                            <div className='text-center'><a href="tel:+442030533844">+44 2030533844</a></div>
+                                            <div className='text-center'><a href="tel:+919784710045">+91 9784710045</a></div>
+                                        </div>
+                                        <div className='col-12 col-md-12 col-lg-6 card p-2'>
+                                            <div className='text-center' style={{color: '#18336c', fontSize: '20px'}}><i class="fas fa-location-dot"></i></div>
+                                            <div className='text-center' style={{color: 'black', fontSize: '20px'}}><b>Our Office Address :</b></div>
+                                            <div className='text-center'>International House, Constance Street, London E16</div>
+                                        </div>
+                                        <div className='col-12 col-md-12 col-lg-6 card p-2'>
+                                            <div className='text-center' style={{color: '#18336c', fontSize: '20px'}}><i class="fas fa-location-dot"></i></div>
+                                            <div className='text-center' style={{color: 'black', fontSize: '20px'}}><b>Our India Branch :</b></div>
+                                            <div className='text-center'>27 krishna vihar Behind mds school old rto Pratap nagar Udaipur, Rajasthan</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
