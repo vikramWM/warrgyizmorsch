@@ -86,37 +86,53 @@ const Index = () => {
         `,
         
     ];
-    const cardData2 = [
-        `
-        <div class="title-area mb-40">
-            <span class="sub-title style1 text-white">Our Services</span>
-            <h5 class="sec-title text-white">
-                Simplified hiring solutions for your everyday business needs! Ranging from virtual assistants, business process, web and mobile app services.
-            </h5>
-        </div>
-        <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
-        `,
-        `
-        <div class="title-area mb-40">
-            <span class="sub-title style1 text-white">Vision Mission & Values</span>
-            <h5 class="sec-title text-white">
-                Our mission, vision and values are the core foundation of our success and commitment to excellence.
-            </h5>
-        </div>
-        <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
-        `,
-        `
-        <div class="title-area mb-40">
-            <span class="sub-title style1 text-white">Security Measures</span>
-            <h5 class="sec-title text-white">
-                Our network and security department help protect client data and provide security against common IT risks.
-            </h5>
-        </div>
-        <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
-        `,
-        
-    ];
     
+// AboutSlider-start-------------------------------
+    const aboutSlider = [
+        {
+        title: "Our Services",
+        description: "Simplified hiring solutions for your everyday business needs! Ranging from virtual assistants, business process, web and mobile app services.",
+        link: "about.html",
+        btnText: "More About Us"
+        },
+        {
+        title: "Vision Mission & Values",
+        description: "Our mission, vision and values are the core foundation of our success and commitment to excellence.",
+        link: "about.html",
+        btnText: "More About Us"
+        },
+        {
+        title: "Security Measures",
+        description: "Our network and security department help protect client data and provide security against common IT risks.",
+        link: "about.html",
+        btnText: "More About Us"
+        }
+    ];
+  
+
+    const generateCardHTMLForAboutSlider = (cardContent) => {
+
+        const title = cardContent.title;
+        const description = cardContent.description;
+    
+        return `      
+            <div class="title-area mb-40">
+                <span class="sub-title style1 text-white">${title}</span>
+                <h5 class="sec-title text-white">${description}</h5>
+            </div>
+            <a href="${cardContent.link}" class="th-btn style5 style-radius">${cardContent.btnText}</a>
+        `;
+    };
+  
+    const generateSliderHTMLForAboutSlider = (data) => {
+        return data.map(generateCardHTMLForAboutSlider);
+    };
+
+    const cardHTMLDataForAboutSlider = generateSliderHTMLForAboutSlider(aboutSlider);
+// AboutSlider-end-------------------------------
+
+  
+// ServiceSlider-start-------------------------------
     const serviceCardData = [
         {
           imgSrc: "assets/img/icon/csp.avif",
@@ -203,11 +219,12 @@ const Index = () => {
     };
       
     const generateSliderHTML = (data) => {
-    return data.map(generateCardHTML);
+        return data.map(generateCardHTML);
     };
     
     const cardHTMLDataForService = generateSliderHTML(serviceCardData);
       
+// ServiceSlider-end-------------------------------
       
     const cardData4 = [
         `
@@ -747,7 +764,7 @@ const Index = () => {
             <div class="position-relative overflow-hidden" style={{ backgroundColor: '#f8f9fa'}}>
                 <div class="container th-container5">
                     <div class="about-sec4 position-relative overflow-hidden" style={{ backgroundImage: `url('assets/img/normal/about_4.jpg')` }}data-bg-src="">
-                        <div class="about-shape4">
+                        <div class="about-shape4" style={{ borderRadius:'0px'}}>
                             <div class="marquee-wrapper">
                                 <div class="marquee">
                                     <div class="marquee-group">
@@ -939,8 +956,8 @@ const Index = () => {
                         </div>
                         <div class="about-area4">
                             <div class="title-area-wrapper">                                
-                                <div className="slider-area">
-                                    <ProductSlider cardData={cardData2} slidesPerView={1} />
+                                <div className="slider-area p-4">
+                                    <ProductSlider cardData={cardHTMLDataForAboutSlider} slidesPerView={1} />
                                 </div>
                             </div>
                         </div>
