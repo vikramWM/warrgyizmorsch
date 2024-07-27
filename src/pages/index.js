@@ -116,294 +116,99 @@ const Index = () => {
         `,
         
     ];
-    const cardData3 = [
-        /*`
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_1.png" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        <a href="service-details.html">Web Development</a>
-                    </h3>
-                    <p class="service-3d_text">
-                        Intrinsicly redefine competitive e-business before
-                        adaptive potentialiti. Professionally build progressive users with.
-                    </p>
-                    <a href="service-details.html" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_2.png" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        <a href="service-details.html">UI/UX Design</a>
-                    </h3>
-                    <p class="service-3d_text">
-                        Intrinsicly redefine competitive e-business before
-                        adaptive potentialiti. Professionally build progressive users with.
-                    </p>
-                    <a href="service-details.html" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_3.png" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        <a href="service-details.html">Digital Marketing</a>
-                    </h3>
-                    <p class="service-3d_text">
-                        Intrinsicly redefine competitive e-business before
-                        adaptive potentialiti. Professionally build progressive users with.
-                    </p>
-                    <a href="service-details.html" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img src="assets/img/icon/service_3d_4.png" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        <a href="service-details.html">Business Analysis</a>
-                    </h3>
-                    <p class="service-3d_text">
-                        Intrinsicly redefine competitive e-business before
-                        adaptive potentialiti. Professionally build progressive users with.
-                    </p>
-                    <a href="service-details.html" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,*/
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/csp.avif" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Voice support
-                    </h3>
-                    <p class="service-3d_text">
-                        When you're looking to make your business stand out, voice assistance services add 
-                        the missing feature...
-                    </p>
-                    <a href="/service-voice-support" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/omni.jpg" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Omni Support
-                    </h3>
-                    <p class="service-3d_text">
-                        In German it is "der Kunde ist König" (customer is king) or in Japanese, it is 
-                        "okyakusamawakamisamadesu"...
-                    </p>
-                    <a href="/service-omni-support" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/virtual.jpg" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Virtual Learning
-                    </h3>
-                    <p class="service-3d_text">
-                        In the digital age, doing mundane tasks within the same organization is now rare. 
-                        It is difficult to manage all aspects ...
-                    </p>
-                    <a href="/service-virtual-learning" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/accountandbook.jpg" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Accounting and Book Keeping
-                    </h3>
-                    <p class="service-3d_text">
-                        Finance accounting and bookkeeping services, is extremely important aspect for 
-                        any business and certainly requires time..
-                    </p>
-                    <a href="/service-accounting-and-bookkeeping" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>        
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/e-commerce.avif" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        E Commerce services
-                    </h3>
-                    <p class="service-3d_text">
-                        Maintaining a stable sales volume is the primary goal of an online seller. However, it is 
-                        difficult to achieve this unless ...
-                    </p>
-                    <a href="/service-e-commerce" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>        
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/data-manage.avif" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Data management
-                    </h3>
-                    <p class="service-3d_text">
-                        To be an efficient fuel source for businesses, data must be managed efficiently. Data management 
-                        services are...
-                    </p>
-                    <a href="/service-data-management" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>        
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/website.avif" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Website Design And Development
-                    </h3>
-                    <p class="service-3d_text">
-                        A web design application development company that helps businesses build strong customer
-                         profiles and reaches potential...
-                    </p>
-                    <a href="/service-website-design-development" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>        
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/content.avif" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Content Writing
-                    </h3>
-                    <p class="service-3d_text">
-                        Content writing is all about drafting thoughts and business ideas on a paper. 
-                        it is the process of planning, researching, ...
-                    </p>
-                    <a href="/service-content-writing" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>        
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="service-3d">
-                <div class="service-3d_icon">
-                    <img style="width: auto; height: 150px; object-fit: cover; " src="assets/img/icon/service_3d_3.png" alt="Icon">
-                </div>
-                <div class="service-3d_content">
-                    <h3 class="box-title">
-                        Digital Marketing
-                    </h3>
-                    <p class="service-3d_text">
-                        Intrinsicly redefine competitive e-business before
-                        adaptive potentialiti. Professionally build progressive users with.
-                    </p>
-                    <a href="/service-digital-marketing" class="th-btn">
-                        Read More
-                        <i class="fas fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        `,
+    
+    const serviceCardData = [
+        {
+          imgSrc: "assets/img/icon/csp.avif",
+          title: "Voice Support",
+          description: "When you're looking to make your business stand out, voice assistance services add the missing feature...",
+          link: "/service-voice-support",
+        },
+        {
+          imgSrc: "assets/img/icon/omni.jpg",
+          title: "Omni Support",
+          description: "In German it is 'der Kunde ist König' (customer is king) or in Japanese, it is 'okyakusama wa kamisama desu'...",
+          link: "/service-omni-support",
+        },
+        {
+          imgSrc: "assets/img/icon/virtual.jpg",
+          title: "Virtual Learning",
+          description: "In the digital age, doing mundane tasks within the same organization is now rare. It is difficult to manage all aspects...",
+          link: "/service-virtual-learning",
+        },
+        {
+          imgSrc: "assets/img/icon/accountandbook.jpg",
+          title: "Accounting and Book Keeping",
+          description: "Finance accounting and bookkeeping services, is extremely important aspect for any business and certainly requires time...",
+          link: "/service-accounting-and-bookkeeping",
+        },
+        {
+          imgSrc: "assets/img/icon/e-commerce.avif",
+          title: "E Commerce services",
+          description: "Maintaining a stable sales volume is the primary goal of an online seller. However, it is difficult to achieve this unless...",
+          link: "/service-e-commerce",
+        },
+        {
+          imgSrc: "assets/img/icon/data-manage.avif",
+          title: "Data management",
+          description: "To be an efficient fuel source for businesses, data must be managed efficiently. Data management services are...",
+          link: "/service-data-management",
+        },
+        {
+          imgSrc: "assets/img/icon/website.avif",
+          title: "Website Design And Development",
+          description: "A web design application development company that helps businesses build strong customer profiles and reaches potential...",
+          link: "/service-website-design-development",
+        },
+        {
+          imgSrc: "assets/img/icon/content.avif",
+          title: "Content Writing",
+          description: "Content writing is all about drafting thoughts and business ideas on paper. It is the process of planning, researching, ...",
+          link: "/service-content-writing",
+        },
+        {
+          imgSrc: "assets/img/icon/service_3d_3.png",
+          title: "Digital Marketing",
+          description: "Intrinsicly redefine competitive e-business before adaptive potentialiti. Professionally build progressive users with...",
+          link: "/service-digital-marketing",
+        }
     ];
+      
+    const generateCardHTML = (cardContent) => {
+    
+        const truncateText = (text, length) => {
+        return text.length > length ? text.substring(0, length) + '...' : text;
+        };
+    
+        const title = truncateText(cardContent.title, 16); 
+        const description = truncateText(cardContent.description, 100); 
+    
+        return `
+        <div class="swiper-slide">
+            <div class="service-3d">
+            <div class="service-3d_icon">
+                <img style="width: auto; height: 150px; object-fit: cover;" src="${cardContent.imgSrc}" alt="${cardContent.title} Icon">
+            </div>
+            <div class="service-3d_content">
+                <h3 style="" class="box-title">${title}</h3>
+                <p style="max-height: 80px; overflow: hidden;" class="service-3d_text">${description}</p>
+                <a href="${cardContent.link}" class="th-btn">
+                Read More
+                <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+            </div>
+            </div>
+        </div>
+        `;
+    };
+      
+    const generateSliderHTML = (data) => {
+    return data.map(generateCardHTML);
+    };
+    
+    const cardHTMLDataForService = generateSliderHTML(serviceCardData);
+      
+      
     const cardData4 = [
         `
         <div class="swiper-slide">
@@ -1150,7 +955,7 @@ const Index = () => {
                             <h2 class="sec-title">We Provide Exclusive Services</h2>
                         </div>
                         <div class="slider-area">
-                            <ProductSlider cardData={cardData3} slidesPerView={3} />
+                            <ProductSlider cardData={cardHTMLDataForService} slidesPerView={3} />
                         </div>
                     </div>
                 </div>
