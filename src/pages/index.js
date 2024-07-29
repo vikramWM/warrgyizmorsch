@@ -202,17 +202,17 @@ const Index = () => {
         return `
         <div class="swiper-slide">
             <div class="service-3d">
-            <div class="service-3d_icon">
-                <img style="width: auto; height: 150px; object-fit: cover;" src="${cardContent.imgSrc}" alt="${cardContent.title} Icon">
-            </div>
-            <div class="service-3d_content">
-                <h3 style="" class="box-title">${title}</h3>
-                <p style="max-height: 80px; overflow: hidden;" class="service-3d_text">${description}</p>
-                <a href="${cardContent.link}" class="th-btn">
-                Read More
-                <i class="fas fa-arrow-right ms-2"></i>
-                </a>
-            </div>
+                <div class="service-3d_icon">
+                    <img style="width: auto; height: 150px; object-fit: cover;" src="${cardContent.imgSrc}" alt="${cardContent.title} Icon">
+                </div>
+                <div class="service-3d_content">
+                    <h3 style="" class="box-title">${title}</h3>
+                    <p style="max-height: 80px; overflow: hidden;" class="service-3d_text">${description}</p>
+                    <a href="${cardContent.link}" class="th-btn">
+                    Read More
+                    <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
             </div>
         </div>
         `;
@@ -225,429 +225,266 @@ const Index = () => {
     const cardHTMLDataForService = generateSliderHTML(serviceCardData);
       
 // ServiceSlider-end-------------------------------
-      
+
+// TestimonialSlider-start-------------------------------
+
     const cardData4 = [
-        `
-        <div class="swiper-slide">
-            <div class="testi-card">
-                <div class="testi-card_review">
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                </div>
-                <p class="testi-card_text">
-                    “Phosfluorescently reinvent prospective metrics
-                    before granular schema. Professionally metrics before expedite
-                    client-centric methods of empow ment whereas effective solut ion.”
-                </p>
-                <div class="testi-card_profile">
-                    <div class="testi-card_avater">
-                        <img src="assets/img/testimonial/testi_1_1.jpg" alt="testimonial">
-                    </div>
-                    <div class="media-body">
-                        <h3 class="testi-card_name">Alex Farnandes</h3>
-                        <span class="testi-card_desig">UI/UX Designer</span>
-                    </div>
-                </div>
-                <div class="testi-card_quote">
-                    <img src="assets/img/icon/quote_left.svg" alt="quote">
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="testi-card">
-                <div class="testi-card_review">
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                </div>
-                <p class="testi-card_text">
-                    “Dnosflu orescent reinvent prospective metrics before
-                    granular schema. Professionally metrics before expedite client-centric
-                    methods of empow ment whereas effective coverless.”
-                </p>
-                <div class="testi-card_profile">
-                    <div class="testi-card_avater">
-                        <img src="assets/img/testimonial/testi_1_2.jpg" alt="testimonial">
-                    </div>
-                    <div class="media-body">
-                        <h3 class="testi-card_name">Mariana Sonia</h3>
-                        <span class="testi-card_desig">CEO at Corola</span>
-                    </div>
-                </div>
-                <div class="testi-card_quote">
-                    <img src="assets/img/icon/quote_left.svg" alt="quote">
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="testi-card">
-                <div class="testi-card_review">
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                </div>
-                <p class="testi-card_text">
-                    “The best service reinvent prospective metrics before
-                    granular schema. Professionally metrics before expedite client-centric
-                    methods of empow ment whereas effective turnings.”
-                </p>
-                <div class="testi-card_profile">
-                    <div class="testi-card_avater">
-                        <img src="assets/img/testimonial/testi_1_3.jpg" alt="testimonial">
-                    </div>
-                    <div class="media-body">
-                        <h3 class="testi-card_name">Abraham Khalil</h3>
-                        <span class="testi-card_desig">UI/UX Designer</span>
-                    </div>
-                </div>
-                <div class="testi-card_quote">
-                    <img src="assets/img/icon/quote_left.svg" alt="quote">
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide">
-            <div class="testi-card">
-                <div class="testi-card_review">
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                    <i class="fa-solid fa-star-sharp"></i>
-                </div>
-                <p class="testi-card_text">
-                    “Five star he reinvent prospective metrics before
-                    granular schema. Professionally metrics before expedite client-centric
-                    methods of empow ment whereas effective gotoning.”
-                </p>
-                <div class="testi-card_profile">
-                    <div class="testi-card_avater">
-                        <img src="assets/img/testimonial/testi_1_4.jpg" alt="testimonial">
-                    </div>
-                    <div class="media-body">
-                        <h3 class="testi-card_name">Alexa Jenifer</h3>
-                        <span class="testi-card_desig">CEO at Morosto</span>
-                    </div>
-                </div>
-                <div class="testi-card_quote">
-                    <img src="assets/img/icon/quote_left.svg" alt="quote">
-                </div>
-            </div>
-        </div>
-        `
+        {
+        reviewStars: 5,
+        text: "Phosfluorescently reinvent prospective metrics before granular schema. Professionally metrics before expedite client-centric methods of empow ment whereas effective solut ion.",
+        avatarSrc: "assets/img/testimonial/testi_1_1.jpg",
+        name: "Alex Farnandes",
+        designation: "UI/UX Designer",
+        quoteIconSrc: "assets/img/icon/quote_left.svg"
+        },
+        {
+        reviewStars: 5,
+        text: "Dnosflu orescent reinvent prospective metrics before granular schema. Professionally metrics before expedite client-centric methods of empow ment whereas effective coverless.",
+        avatarSrc: "assets/img/testimonial/testi_1_2.jpg",
+        name: "Mariana Sonia",
+        designation: "CEO at Corola",
+        quoteIconSrc: "assets/img/icon/quote_left.svg"
+        },
+        {
+        reviewStars: 5,
+        text: "The best service reinvent prospective metrics before granular schema. Professionally metrics before expedite client-centric methods of empow ment whereas effective turnings.",
+        avatarSrc: "assets/img/testimonial/testi_1_3.jpg",
+        name: "Abraham Khalil",
+        designation: "UI/UX Designer",
+        quoteIconSrc: "assets/img/icon/quote_left.svg"
+        },
+        {
+        reviewStars: 5,
+        text: "Five star he reinvent prospective metrics before granular schema. Professionally metrics before expedite client-centric methods of empow ment whereas effective gotoning.",
+        avatarSrc: "assets/img/testimonial/testi_1_4.jpg",
+        name: "Alexa Jenifer",
+        designation: "CEO at Morosto",
+        quoteIconSrc: "assets/img/icon/quote_left.svg"
+        }
     ];
-    const cardData5 = [
-        `<div class="swiper-slide">
-            <div class="blog-card">
-                <div class="blog-img">
-                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+  
+  
+    const generateTestimonialCardHTML = (cardContent) => {
+        const truncateText = (text, length) => {
+            return text.length > length ? text.substring(0, length) + '...' : text;
+        };
+        const cardContentText = truncateText(cardContent.text, 150); 
+        const cardContentName = truncateText(cardContent.name, 20); 
+        const cardContentDesignation = truncateText(cardContent.designation, 20);
+        const stars = Array(cardContent.reviewStars).fill('<i class="fa-solid fa-star-sharp"></i>').join('');
+    
+        return `
+        <div class="swiper-slide">
+            <div class="testi-card">
+                <div class="testi-card_review">
+                    ${stars}
                 </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <a href="blog.html">
-                            <i class="fal fa-calendar-days"></i>
-                            15 Jan, 2024
-                        </a> 
-                        <a href="blog.html">
-                            <i class="fal fa-comments"></i>
-                            2 Comments
-                        </a>
+                <p class="testi-card_text">
+                    "${cardContentText}"
+                </p>
+                <div class="testi-card_profile">
+                    <div class="testi-card_avater">
+                    <img src="${cardContent.avatarSrc}" alt="testimonial">
                     </div>
-                    <h3 class="box-title">
-                        <a href="blog-details.html">
-                            How digital marketing is different from traditional marketing?
-                        </a>
-                    </h3>
-                    <p class="blog-text">
-                        Traditional marketing is considered when marketing activities for an 
-                        organization are undertaken in a conventional way such as by television,
-                    </p>
-                    <div class="blog-bottom"> 
-                        <a href="blog-details.html" class="line-btn">
-                            Read More
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
+                    <div class="media-body">
+                    <h3 class="testi-card_name">${cardContentName}</h3>
+                    <span class="testi-card_desig">${cardContentDesignation}</span>
                     </div>
                 </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="blog-card">
-                <div class="blog-img">
-                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <a href="blog.html">
-                            <i class="fal fa-calendar-days"></i>
-                            15 Jan, 2024
-                        </a> 
-                        <a href="blog.html">
-                            <i class="fal fa-comments"></i>
-                            2 Comments
-                        </a>
-                    </div>
-                    <h3 class="box-title">
-                        <a href="blog-details.html">
-                            How digital marketing helps in business growth?
-                        </a>
-                    </h3>
-                    <p class="blog-text">
-                        With the continues changing of working culture globally Digital 
-                        marketing has taken place of conventional marketing. With the great 
-                        evaluation of modern technology, small and medium 
-                    </p>
-                    <div class="blog-bottom"> 
-                        <a href="blog-details.html" class="line-btn">
-                            Read More
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
+                <div class="testi-card_quote">
+                    <img src="${cardContent.quoteIconSrc}" alt="quote">
                 </div>
             </div>
         </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="blog-card">
-                <div class="blog-img">
-                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <a href="blog.html">
-                            <i class="fal fa-calendar-days"></i>
-                            15 Jan, 2024
-                        </a> 
-                        <a href="blog.html">
-                            <i class="fal fa-comments"></i>
-                            2 Comments
-                        </a>
-                    </div>
-                    <h3 class="box-title">
-                        <a href="blog-details.html">
-                            Top Digital Marketing Strategies for gym
-                        </a>
-                    </h3>
-                    <p class="blog-text">
-                        Nowadays, when people do have not much time for their nearest they do 
-                        not get enough time for self-care due to hassle in their lives. Due 
-                        to this, they face many health-related issues ...
-                    </p>
-                    <div class="blog-bottom">
-                        <a href="blog-details.html" class="line-btn">
-                            Read More
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="blog-card">
-                <div class="blog-img">
-                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <a href="blog.html">
-                            <i class="fal fa-calendar-days"></i>
-                            15 Jan, 2024
-                        </a> 
-                        <a href="blog.html">
-                            <i class="fal fa-comments"></i>
-                            2 Comments
-                        </a>
-                    </div>
-                    <h3 class="box-title">
-                        <a href="blog-details.html">
-                            Top 10 Digital Marketing Strategies for the startups
-                        </a>
-                    </h3>
-                    <p class="blog-text">
-                        It is very difficult to persist in the market and settle your startups when 
-                        the competition is quite high in every business, as we know due to COVIDE-19, 
-                        this time has tuned out to be ... 
-                    </p>
-                    <div class="blog-bottom">
-                        <a href="blog-details.html" class="line-btn">
-                            Read More
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="blog-card">
-                <div class="blog-img">
-                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <a href="blog.html">
-                            <i class="fal fa-calendar-days"></i>
-                            15 Jan, 2024
-                        </a> 
-                        <a href="blog.html">
-                            <i class="fal fa-comments"></i>
-                            2 Comments
-                        </a>
-                    </div>
-                    <h3 class="box-title">
-                        <a href="blog-details.html">
-                            Top  Digital Marketing Strategies for the product launch
-                        </a>
-                    </h3>
-                    <p class="blog-text">
-                        We all are always stay awaited for the product launch program as after paying 
-                        much attention and hard work the final day comes in life when you are ...
-                    </p>
-                    <div class="blog-bottom">
-                        <a href="blog-details.html" class="line-btn">
-                            Read More
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="blog-card">
-                <div class="blog-img">
-                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <a href="blog.html">
-                            <i class="fal fa-calendar-days"></i>
-                            15 Jan, 2024
-                        </a> 
-                        <a href="blog.html">
-                            <i class="fal fa-comments"></i>
-                            2 Comments
-                        </a>
-                    </div>
-                    <h3 class="box-title">
-                        <a href="blog-details.html">
-                            How does Digital Marketing Help Small Businesses?
-                        </a>
-                    </h3>
-                    <p class="blog-text">
-                        It's a fact that good marketing plays a very crucial role in 
-                        growing a business, it can enhance your business and give confidence 
-                        in continuous success...
-                    </p>
-                    <div class="blog-bottom">
-                        <a href="blog-details.html" class="line-btn">
-                            Read More
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        `,
-        
+        `;
+    };
+  
+    const generateTestimonialSliderHTML = (data) => {
+        return data.map(generateTestimonialCardHTML);
+    };
+    
+    const cardHTMLDataForTestimonials = generateTestimonialSliderHTML(cardData4);
+    
+  
+// TestimonialSlider-end-------------------------------
+          
+//blog-start
+
+    const blogDataList = [
+        {
+            imageSrc: "assets/img/blog/blog_1.jpg",
+            altText: "blog image",
+            date: "15 Jan, 2024",
+            comments: 2,
+            title: "How digital marketing is different from traditional marketing?",
+            description: "Traditional marketing is considered when marketing activities for an organization are undertaken in a conventional way such as by television.",
+            blogLink: "blog.html",
+            detailLink: "blog-details.html"
+        },
+        {
+            imageSrc: "assets/img/blog/blog_2.jpg",
+            altText: "blog image",
+            date: "15 Jan, 2024",
+            comments: 2,
+            title: "How digital marketing helps in business growth?",
+            description: "With the continuous changing of working culture globally, Digital marketing has taken the place of conventional marketing. With the great evolution of modern technology, small and medium businesses...",
+            blogLink: "blog.html",
+            detailLink: "blog-details.html"
+        },
+        {
+            imageSrc: "assets/img/blog/blog_3.jpg",
+            altText: "blog image",
+            date: "15 Jan, 2024",
+            comments: 2,
+            title: "Top Digital Marketing Strategies for gym",
+            description: "Nowadays, when people do not have much time for themselves due to the hustle in their lives, they face many health-related issues...",
+            blogLink: "blog.html",
+            detailLink: "blog-details.html"
+        },
+        {
+            imageSrc: "assets/img/blog/blog_4.jpg",
+            altText: "blog image",
+            date: "15 Jan, 2024",
+            comments: 2,
+            title: "Top 10 Digital Marketing Strategies for the startups",
+            description: "It is very difficult to persist in the market and establish your startups when competition is quite high in every business...",
+            blogLink: "blog.html",
+            detailLink: "blog-details.html"
+        },
+        {
+            imageSrc: "assets/img/blog/blog_5.jpg",
+            altText: "blog image",
+            date: "15 Jan, 2024",
+            comments: 2,
+            title: "Top Digital Marketing Strategies for product launch",
+            description: "We all eagerly await product launch programs. After putting in much attention and hard work, the final day arrives...",
+            blogLink: "blog.html",
+            detailLink: "blog-details.html"
+        },
+        {
+            imageSrc: "assets/img/blog/blog_6.jpg",
+            altText: "blog image",
+            date: "15 Jan, 2024",
+            comments: 2,
+            title: "How does Digital Marketing Help Small Businesses?",
+            description: "It's a fact that good marketing plays a crucial role in growing a business. It can enhance your business and boost confidence...",
+            blogLink: "blog.html",
+            detailLink: "blog-details.html"
+        }
     ];
-    const cardData6 = [
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_1.jpeg" alt="img1" style="width: 100%; height: 100%; object-fit: cover;">
+    // Function to truncate text with ellipsis
+    const truncateText = (text, length) => {
+        return text.length > length ? text.substring(0, length) + '...' : text;
+    };
+
+    const generateBlogCardHTML = (blogData) => {
+        // Define default text lengths
+        let titleLength = 35;
+        let descLength = 105;
+
+        // Adjust text lengths based on window width
+        if (window.innerWidth < 265) {
+            titleLength = 20;
+            descLength = 50;
+        } else if (window.innerWidth > 265 && window.innerWidth < 355) {
+            titleLength = 20;
+            descLength = 75;
+        } else if (window.innerWidth > 355 && window.innerWidth < 387) {
+            titleLength = 25;
+            descLength = 85;
+        } else if (window.innerWidth > 387 && window.innerWidth < 450) {
+            titleLength = 20;
+            descLength = 90;
+        }else if (window.innerWidth > 450 && window.innerWidth < 768) {
+            titleLength = 25;
+            descLength = 90;
+        }else if (window.innerWidth > 768 && window.innerWidth < 1300) {
+            titleLength = 30;
+            descLength = 100;
+        }
+        const title = truncateText(blogData.title, titleLength);
+        const description = truncateText(blogData.description, descLength);
+
+        return `
+        <div class="swiper-slide">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img style="width: 100%; height: 200px; object-fit: cover;" src="${blogData.imageSrc}" alt="${blogData.altText}">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <a href="${blogData.blogLink}">
+                            <i class="fal fa-calendar-days"></i>
+                            ${blogData.date}
+                        </a>
+                        <a href="${blogData.blogLink}">
+                            <i class="fal fa-comments"></i>
+                            ${blogData.comments} Comments
+                        </a>
+                    </div>
+                    <h3 class="box-title">
+                        <a href="${blogData.detailLink}">
+                            ${title}
+                        </a>
+                    </h3>
+                    <p class="blog-text">
+                        ${description}
+                    </p>
+                    <div class="blog-bottom">
+                        <a href="${blogData.detailLink}" class="line-btn">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-        `,
-        `<div class="swiper-slide">
+        `;
+    };
+
+    const generateBlogSliderHTML = (blogDataList) => {
+        return blogDataList.map(generateBlogCardHTML);
+    };
+
+    const blogHTMLData = generateBlogSliderHTML(blogDataList);
+
+//blog-end
+
+// gallery-start
+    const generateProjectCardHTML = (imageSrc) => {
+        return `
+        <div class="swiper-slide">
             <div class="project-box">
                 <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_2.jpeg" alt="img2" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="${imageSrc}" alt="project image" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
             </div>
         </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_3.jpeg" alt="img2" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_4.jpeg" alt="img4" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_5.jpeg" alt="img5" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_6.jpeg" alt="img6" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_7.jpeg" alt="img7" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_8.jpeg" alt="img8" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_9.jpeg" alt="img9" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        `<div class="swiper-slide">
-            <div class="project-box">
-                <div class="project-img" style="width: 100%; height: 300px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
-                    <img src="assets/img/gallery/warr/img_10.jpeg" alt="img10" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-        `,
-        
+        `;
+    };
+
+    const projectImages = [
+        "assets/img/gallery/warr/img_1.jpeg",
+        "assets/img/gallery/warr/img_2.jpeg",
+        "assets/img/gallery/warr/img_3.jpeg",
+        "assets/img/gallery/warr/img_4.jpeg",
+        "assets/img/gallery/warr/img_5.jpeg",
+        "assets/img/gallery/warr/img_6.jpeg",
+        "assets/img/gallery/warr/img_7.jpeg",
+        "assets/img/gallery/warr/img_8.jpeg",
+        "assets/img/gallery/warr/img_9.jpeg",
+        "assets/img/gallery/warr/img_10.jpeg"
     ];
+
+    const generateProjectSliderHTML = (images) => {
+        return images.map(generateProjectCardHTML);
+    };
+
+    const galleryHTMLData = generateProjectSliderHTML(projectImages);
+
+
+//gallery-end
+    
     return (
         <>
             <div class="th-hero-wrapper hero-5" id="hero">
@@ -1065,7 +902,7 @@ const Index = () => {
                                     </div>
                                 </div>
                                 <div class="swiper-wrapper">
-                                    <ProductSlider cardData={cardData4} slidesPerView={1} />
+                                    <ProductSlider cardData={cardHTMLDataForTestimonials} slidesPerView={1} />
                                 </div>
                             </div>
                         </div>
@@ -1179,7 +1016,7 @@ const Index = () => {
                         <div class="col-xl-8">
                             <div class="slider-area project-slider4">                                
                                 <div class="swiper-wrapper">
-                                    <ProductSlider cardData={cardData6} slidesPerView={2} />
+                                    <ProductSlider cardData={galleryHTMLData} slidesPerView={2} />
                                 </div>                                
                             </div>
                         </div>
@@ -1198,7 +1035,7 @@ const Index = () => {
                         </h2>
                     </div>
                     <div class="slider-area">
-                        <ProductSlider cardData={cardData5} slidesPerView={3} />                        
+                        <ProductSlider cardData={blogHTMLData} slidesPerView={3} />                        
                     </div>
                 </div>
                 
