@@ -3,17 +3,27 @@ import React from 'react';
 const DataManagement = () => {
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
+            {/* <div style={{ height: '108px', backgroundColor: '#18336c' }}></div> */}
+            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover', paddingTop: '100px' }} id="service-sec">
+                <div className="round-container pt-5">
+                    <div className="container">
+                        <div className="title-area text-center">
+                            <span className="sub-title text-white">OUR SERVICES</span>
+                            <h2 className="sec-title text-white">Data Management Service</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="space-extra-bottom">
                 <div className="container">
                     <div className="row">
                         <div className="col">
                             <div className="page-single">
                                 <div className="page-content">
-                                    <div className="text-center" style={{ paddingTop: '30px'}}>
+                                    {/* <div className="text-center" style={{ paddingTop: '30px'}}>
                                         <h2 className="h3 page-title">Data Management Services</h2>
-                                    </div>
-                                    <h4>
+                                    </div> */}
+                                    <h4 style={{ paddingTop: '30px'}}>
                                         Data Management Services - Secure and Efficient Solutions
                                     </h4>
                                     <p>
