@@ -18,6 +18,7 @@ import ContentWriting from './pages/services/content_writing.js';
 import E_CommerceServices from './pages/services/e-commerce_services.js';
 import VoiceSupport from './pages/services/voice_support.js';
 import DigitalMarketing from './pages/services/digital_marketing.js';
+// import Gallery2 from './pages/gallery2.js';
 
 function App() {
 	return (
@@ -41,6 +42,7 @@ function App() {
 						<Route path='/service-digital-marketing' element={<DigitalMarketing />} />
 						<Route path='/blog' element={<Blog />} />
 						<Route path='/gallery' element={<Gallery />} />
+						{/* <Route path='/gallery2' element={<Gallery2 />} /> */}
 						<Route path='/career' element={<Career />} />
 						
 						<Route path='*' element={<Error />} />
