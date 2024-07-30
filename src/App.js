@@ -18,7 +18,10 @@ import ContentWriting from './pages/services/content_writing.js';
 import E_CommerceServices from './pages/services/e-commerce_services.js';
 import VoiceSupport from './pages/services/voice_support.js';
 import DigitalMarketing from './pages/services/digital_marketing.js';
-// import Gallery2 from './pages/gallery2.js';
+
+import How_digital_marketing_is_different_from_traditional_marketing from './pages/blog/how_digital_marketing_is_different_from_traditional_marketing.js';
+import How_digital_marketing_helps_in_business_growth from './pages/blog/how_digital_marketing_helps_in_business_growth.js';
+
 
 function App() {
 	return (
@@ -41,8 +44,11 @@ function App() {
 						<Route path='/service-voice-support' element={<VoiceSupport />} />
 						<Route path='/service-digital-marketing' element={<DigitalMarketing />} />
 						<Route path='/blog' element={<Blog />} />
+						<Route path='/how-digital-marketing-is-different-from-traditional-marketing' element={<How_digital_marketing_is_different_from_traditional_marketing />} />
+						<Route path='/how-digital-marketing-helps-in-business-growth' element={<How_digital_marketing_helps_in_business_growth />} />
+						
 						<Route path='/gallery' element={<Gallery />} />
-						{/* <Route path='/gallery2' element={<Gallery2 />} /> */}
+						
 						<Route path='/career' element={<Career />} />
 						
 						<Route path='*' element={<Error />} />

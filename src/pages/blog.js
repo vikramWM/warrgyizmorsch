@@ -5,7 +5,7 @@ const Blog = () => {
         {
             title: "How digital marketing is different from traditional marketing?",
             imgSrc: "assets/img/blog/blog_1.jpg",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Traditional marketing involves conventional methods like TV, newspapers, etc., while digital marketing leverages online platforms to reach customers. The evolving nature of digital marketing allows for more targeted, measurable, and cost-effective approaches...",
             link: "blog-details.html"
@@ -13,7 +13,7 @@ const Blog = () => {
         {
             title: "How digital marketing helps in business growth?",
             imgSrc: "assets/img/blog/blog_2.jpg",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "As the global work culture changes, digital marketing has taken the forefront. The advent of modern technology has made digital marketing a vital tool for small and medium enterprises to achieve significant growth and compete in the market...",
             link: "blog-details.html"
@@ -21,7 +21,7 @@ const Blog = () => {
         {
             title: "Top Digital Marketing Strategies for gyms",
             imgSrc: "assets/img/blog/blog_3.jpg",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "In today's busy world, people often neglect self-care due to hectic schedules. As a result, health-related issues become more prevalent. Digital marketing strategies can help gyms connect with potential clients, offering solutions to improve their health and well-being...",
             link: "blog-details.html"
@@ -29,7 +29,7 @@ const Blog = () => {
         {
             title: "Top 10 Digital Marketing Strategies for startups",
             imgSrc: "assets/img/blog/blog_4.jpg",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Navigating the competitive business landscape is challenging for startups, especially in the aftermath of COVID-19. This blog explores the top 10 digital marketing strategies that can help startups establish a strong market presence and achieve sustainable growth...",
             link: "blog-details.html"
@@ -37,7 +37,7 @@ const Blog = () => {
         {
             title: "Top Digital Marketing Strategies for product launches",
             imgSrc: "assets/img/blog/blog_5.jpg",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Product launches are critical moments for any business. With the right digital marketing strategies, companies can build anticipation, reach wider audiences, and ensure successful product introductions. This article delves into key strategies for maximizing the impact of a product launch...",
             link: "blog-details.html"
@@ -45,7 +45,7 @@ const Blog = () => {
         {
             title: "How does Digital Marketing Help Small Businesses?",
             imgSrc: "assets/img/blog/blog_6.jpg",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Effective marketing is crucial for the growth of small businesses. Digital marketing provides these businesses with tools and strategies to enhance their visibility, engage customers, and drive sales, ensuring long-term success and sustainability...",
             link: "blog-details.html"
