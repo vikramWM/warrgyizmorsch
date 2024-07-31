@@ -25,6 +25,7 @@ import Top_digital_marketing_strategies_for_gym from './pages/blog/top_digital_m
 import Top_10_digital_marketing_strategies_for_the_startups from './pages/blog/top_10_digital_marketing_strategies_for_the_startups.js';
 import Top_digital_marketing_strategies_for_the_product_launch from './pages/blog/top_digital_marketing_strategies_for_the_product_launch.js';
 import How_does_digital_marketing_help_small_businesses from './pages/blog/how_does_digital_marketing_help_small_businesses.js';
+import PrivacyPolicy from './pages/policy/privacy_policy.js';
 
 
 function App() {
@@ -58,7 +59,7 @@ function App() {
 						<Route path='/gallery' element={<Gallery />} />
 						
 						<Route path='/career' element={<Career />} />
-						
+						<Route path='/privacy-policy' element={<PrivacyPolicy />} />
 						<Route path='*' element={<Error />} />
 					</Route>
 				</Routes>
