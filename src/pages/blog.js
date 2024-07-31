@@ -8,7 +8,7 @@ const Blog = () => {
             date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Traditional marketing involves conventional methods like TV, newspapers, etc., while digital marketing leverages online platforms to reach customers. The evolving nature of digital marketing allows for more targeted, measurable, and cost-effective approaches...",
-            link: "blog-details.html"
+            link: "/how-digital-marketing-is-different-from-traditional-marketing"
         },
         {
             title: "How digital marketing helps in business growth?",
@@ -16,7 +16,7 @@ const Blog = () => {
             date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "As the global work culture changes, digital marketing has taken the forefront. The advent of modern technology has made digital marketing a vital tool for small and medium enterprises to achieve significant growth and compete in the market...",
-            link: "blog-details.html"
+            link: "/how-digital-marketing-helps-in-business-growth"
         },
         {
             title: "Top Digital Marketing Strategies for gyms",
@@ -24,7 +24,7 @@ const Blog = () => {
             date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "In today's busy world, people often neglect self-care due to hectic schedules. As a result, health-related issues become more prevalent. Digital marketing strategies can help gyms connect with potential clients, offering solutions to improve their health and well-being...",
-            link: "blog-details.html"
+            link: "/top-digital-marketing-strategies-for-gym"
         },
         {
             title: "Top 10 Digital Marketing Strategies for startups",
@@ -32,7 +32,7 @@ const Blog = () => {
             date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Navigating the competitive business landscape is challenging for startups, especially in the aftermath of COVID-19. This blog explores the top 10 digital marketing strategies that can help startups establish a strong market presence and achieve sustainable growth...",
-            link: "blog-details.html"
+            link: "/top-10-digital-marketing-strategies-for-the-startups"
         },
         {
             title: "Top Digital Marketing Strategies for product launches",
@@ -40,7 +40,7 @@ const Blog = () => {
             date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Product launches are critical moments for any business. With the right digital marketing strategies, companies can build anticipation, reach wider audiences, and ensure successful product introductions. This article delves into key strategies for maximizing the impact of a product launch...",
-            link: "blog-details.html"
+            link: "/top-digital-marketing-strategies-for-the-product-launch"
         },
         {
             title: "How does Digital Marketing Help Small Businesses?",
@@ -48,7 +48,7 @@ const Blog = () => {
             date: "15 Jan, 2022",
             comments: "2 Comments",
             description: "Effective marketing is crucial for the growth of small businesses. Digital marketing provides these businesses with tools and strategies to enhance their visibility, engage customers, and drive sales, ensuring long-term success and sustainability...",
-            link: "blog-details.html"
+            link: "/how-does-digital-marketing-help-small-businesses"
         }
     ];
 
@@ -141,10 +141,10 @@ const Blog = () => {
                                     </div>
                                     <div className="blog-content" style={styles.blogContent}>
                                         <div className="blog-meta" style={styles.blogMeta}>
-                                            <a href="blog.html" style={styles.blogMetaLink}>
+                                            <a href="javascript:void(0);" style={styles.blogMetaLink}>
                                                 <i className="fal fa-calendar-days"></i> {blog.date}
                                             </a>
-                                            <a href="blog.html" style={styles.blogMetaLink}>
+                                            <a href="javascript:void(0);" style={styles.blogMetaLink}>
                                                 <i className="fal fa-comments"></i> {blog.comments}
                                             </a>
                                         </div>

@@ -65,37 +65,37 @@ const How_digital_marketing_helps_in_business_growth = () => {
                 id: 1,
                 image: "assets/img/blog/blog_1.jpg",
                 title: "How digital marketing is different from traditional marketing?",
-                url: "/blog",
+                url: "/how-digital-marketing-is-different-from-traditional-marketing",
                 date: "15 Jan, 2022"
-            },            
+            },           
             {
                 id: 3,
                 image: "assets/img/blog/blog_3.jpg",
                 title: "Top Digital Marketing Strategies for gyms",
-                url: "/blog",
+                url: "/top-digital-marketing-strategies-for-gym",
                 date: "15 Jan, 2022"
             },
             {
                 id: 4,
                 image: "assets/img/blog/blog_4.jpg",
                 title: "Top 10 Digital Marketing Strategies for startups",
-                url: "/blog",
+                url: "/top-10-digital-marketing-strategies-for-the-startups",
                 date: "15 Jan, 2022"
             },
             {
                 id: 5,
                 image: "assets/img/blog/blog_5.jpg",
                 title: "Top Digital Marketing Strategies for product launches",
-                url: "/blog",
+                url: "/top-digital-marketing-strategies-for-the-product-launch",
                 date: "15 Jan, 2022"
             },
             {
                 id: 6,
                 image: "assets/img/blog/blog_6.jpg",
                 title: "How does Digital Marketing Help Small Businesses?",
-                url: "/blog",
+                url: "/how-does-digital-marketing-help-small-businesses",
                 date: "15 Jan, 2022"
-            },            
+            }
         ],
         popularTags: ["Technology", "Advice", "Solution", "Consultation", "Business", "Services", "Start Up", "Agency", "Software"]
     };

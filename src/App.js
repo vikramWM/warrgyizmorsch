@@ -21,6 +21,10 @@ import DigitalMarketing from './pages/services/digital_marketing.js';
 
 import How_digital_marketing_is_different_from_traditional_marketing from './pages/blog/how_digital_marketing_is_different_from_traditional_marketing.js';
 import How_digital_marketing_helps_in_business_growth from './pages/blog/how_digital_marketing_helps_in_business_growth.js';
+import Top_digital_marketing_strategies_for_gym from './pages/blog/top_digital_marketing_strategies_for_gym.js';
+import Top_10_digital_marketing_strategies_for_the_startups from './pages/blog/top_10_digital_marketing_strategies_for_the_startups.js';
+import Top_digital_marketing_strategies_for_the_product_launch from './pages/blog/top_digital_marketing_strategies_for_the_product_launch.js';
+import How_does_digital_marketing_help_small_businesses from './pages/blog/how_does_digital_marketing_help_small_businesses.js';
 
 
 function App() {
@@ -46,6 +50,10 @@ function App() {
 						<Route path='/blog' element={<Blog />} />
 						<Route path='/how-digital-marketing-is-different-from-traditional-marketing' element={<How_digital_marketing_is_different_from_traditional_marketing />} />
 						<Route path='/how-digital-marketing-helps-in-business-growth' element={<How_digital_marketing_helps_in_business_growth />} />
+						<Route path='/top-digital-marketing-strategies-for-gym' element={<Top_digital_marketing_strategies_for_gym />} />
+						<Route path='/top-10-digital-marketing-strategies-for-the-startups' element={<Top_10_digital_marketing_strategies_for_the_startups />} />
+						<Route path='/top-digital-marketing-strategies-for-the-product-launch' element={<Top_digital_marketing_strategies_for_the_product_launch/>} />
+						<Route path='/how-does-digital-marketing-help-small-businesses' element={<How_does_digital_marketing_help_small_businesses/>} />
 						
 						<Route path='/gallery' element={<Gallery />} />
 						

@@ -27,18 +27,18 @@ const BlogDetailsLayout = ({ blogData }) => {
                                 <div className="blog-content">
                                     <div className="blog-meta">
                                         {blogData.authorImage && blogData.author && (
-                                            <a className="author" href="/blog">
+                                            <a className="author" href="javascript:void(0);">
                                                 <img src={blogData.authorImage} alt="Author" />
                                                 By {blogData.author}
                                             </a>
                                         )}
                                         {blogData.date && (
-                                            <a href="/blog">
+                                            <a href="javascript:void(0);">
                                                 <i className="fa-light fa-calendar-days"></i>
                                                 {blogData.date}
                                             </a>
                                         )}
-                                        <a href="/blog-details">
+                                        <a href="javascript:void(0);">
                                             <i className="fa-regular fa-comments"></i>
                                             Comments ({blogData.comments?.length || 0})
                                         </a>
@@ -55,7 +55,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                                     <span className="share-links-title">Tags:</span>
                                                     <div className="tagcloud">
                                                         {blogData.tags.map((tag, index) => (
-                                                            <a key={index} href="/blog">{tag}</a>
+                                                            <a key={index} href="javascript:void(0);">{tag}</a>
                                                         ))}
                                                     </div>
                                                 </div>
@@ -94,7 +94,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                                             <h3 className="name">{comment.author}</h3>
                                                             <p className="text">{comment.text}</p>
                                                             <div className="reply_and_edit">
-                                                                <a href="/blog-details" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
+                                                                <a href="javascript:void(0);" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -185,7 +185,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                                             </a>
                                                         </h4>
                                                         <div className="recent-post-meta">
-                                                            <a href="/blog"><i className="fal fa-calendar-days"></i>{post.date}</a>
+                                                            <a href="javascript:void(0);"><i className="fal fa-calendar-days"></i>{post.date}</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -198,7 +198,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                         <h3 className="widget_title">Popular Tags</h3>
                                         <div className="tagcloud">
                                             {blogData.popularTags.map((tag, index) => (
-                                                <a key={index} href="/blog">{tag}</a>
+                                                <a key={index} href="javascript:void(0);">{tag}</a>
                                             ))}
                                         </div>
                                     </div>
