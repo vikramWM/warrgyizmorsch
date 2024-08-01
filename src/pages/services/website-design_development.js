@@ -39,33 +39,33 @@ const WebsiteDesignDevelopment = () => {
                                         in attracting and engaging visitors, from creating a visually appealing user interface to optimizing for 
                                         mobile responsiveness and integrating e-commerce functionality. You can maximize your website's potential 
                                         and drive the desired results with the right strategies and customized approach.
-                                        <table border="1" className='my-4'>
-                                            <thead>
-                                                <tr>
-                                                    <th>Website Design Basics</th>
-                                                    <th>Website Layout</th>
-                                                    <th>User Experience</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Organized structure</td>
-                                                    <td>Visual appeal</td>
-                                                    <td>Seamless interactions</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Intuitive navigation</td>
-                                                    <td>Effective use of whitespace</td>
-                                                    <td>Responsive design</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Seamless interactions</td>
-                                                    <td>Consistent branding</td>
-                                                    <td>Optimized load times</td>
-                                                </tr>                                              
-                                            </tbody>
-                                        </table>
                                     </p>            
+                                    <table border="1" className='my-4'>
+                                        <thead>
+                                            <tr>
+                                                <th>Website Design Basics</th>
+                                                <th>Website Layout</th>
+                                                <th>User Experience</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Organized structure</td>
+                                                <td>Visual appeal</td>
+                                                <td>Seamless interactions</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Intuitive navigation</td>
+                                                <td>Effective use of whitespace</td>
+                                                <td>Responsive design</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Seamless interactions</td>
+                                                <td>Consistent branding</td>
+                                                <td>Optimized load times</td>
+                                            </tr>                                              
+                                        </tbody>
+                                    </table>
 
                                     <div className="row">
                                         <div className="col-md-6 mb-30">

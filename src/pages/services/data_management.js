@@ -72,33 +72,33 @@ const DataManagement = () => {
                                         protect businesses' sensitive information. This includes advanced data encryption techniques, secure access controls, 
                                         and comprehensive monitoring and incident response capabilities. By leveraging these security features, organizations 
                                         can safeguard their data from unauthorized access, data breaches, and other malicious activities.
-                                        <table border="1" className='mt-4'>
-                                            <thead>
-                                                <tr>
-                                                    <th>Data Storage and Backup</th>
-                                                    <th>Data Security and Encryption</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>On-premises storage solutions</td>
-                                                    <td>Advanced data encryption</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Cloud-based data storage</td>
-                                                    <td>Secure access controls</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Hybrid storage approaches</td>
-                                                    <td>Comprehensive monitoring and incident response</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Secure data retrieval and restoration</td>
-                                                    <td>Protection against data breaches and unauthorised access</td>
-                                                </tr>                                                
-                                            </tbody>
-                                        </table>
                                     </p>
+                                    <table border="1" className='mt-4'>
+                                        <thead>
+                                            <tr>
+                                                <th>Data Storage and Backup</th>
+                                                <th>Data Security and Encryption</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>On-premises storage solutions</td>
+                                                <td>Advanced data encryption</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cloud-based data storage</td>
+                                                <td>Secure access controls</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hybrid storage approaches</td>
+                                                <td>Comprehensive monitoring and incident response</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Secure data retrieval and restoration</td>
+                                                <td>Protection against data breaches and unauthorised access</td>
+                                            </tr>                                                
+                                        </tbody>
+                                    </table>
                                     <h4>Choosing the Right Data Management Provider</h4>
                                     <p className="mb-4">
                                         When selecting a data management service provider, businesses must consider a range of factors to ensure 
