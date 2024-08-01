@@ -3,38 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <>
-            {/* <div className="breadcumb-wrapper" style={{
-                    backgroundImage: `url("assets/img/bg/breadcumb-bg.jpg")`,
-                    backgroundPosition: 'center'
-                }}>
-                <div className="container">
-                    <div className="breadcumb-content">
-                        <h1 className="breadcumb-title">About Us</h1>
-                        <ul className="breadcumb-menu">
-                            <li><a href="/">Home</a></li>
-                            <li>About Us</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> */}            
-            <div style={{ height: '108px', backgroundColor: '#18336c'}}></div>
-            {/* <div className="" style={{
-                    backgroundImage: `url("assets/img/bg/bg.jpg")`,
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
-                    height: '400px'
-                }}>
-                <div className="container" style={{paddingTop: '208px'}}>
-                    <div className="" style={{ textAlign: 'center'}}>
-                        <h1 className="breadcumb-title">About Us</h1>
-                        <ul className="breadcumb-menu">
-                            <li><a href="/">Home</a></li>
-                            <li>About Us</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> */}
+            
             <div className="th-hero-wrapper hero-1" id="hero">
                 <div className="hero-img tilt-active">
                     <img src="assets/img/hero/hero_img_1_1.png" alt="Hero Image" />

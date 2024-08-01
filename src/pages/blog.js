@@ -117,7 +117,6 @@ const Blog = () => {
 
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <section className="bg-top-right overflow-hidden" id="blog-sec" style={{ backgroundImage: `url('assets/img/bg/blog_bg_1.png')`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <div className="container pt-5">
                     <div className="title-area text-center">

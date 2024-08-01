@@ -29,7 +29,6 @@ const Gallery = () => {
 
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <section className="pb-5" id="service-sec" style={{ backgroundImage: `url('assets/img/bg/blog_bg_1.png')` }}>
                 <div className="container pt-5">
                     <div className="title-area text-center">

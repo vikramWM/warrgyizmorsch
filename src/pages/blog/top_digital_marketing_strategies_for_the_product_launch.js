@@ -90,7 +90,6 @@ const Top_digital_marketing_strategies_for_the_product_launch = () => {
     };
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <BlogDetailsLayout blogData={blogContent} />
         </>
     )

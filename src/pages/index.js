@@ -913,7 +913,7 @@ const Index = () => {
                                     <span className="text-theme">Development Services</span>
                                 </h2>
                             </div>
-                            <div className="contact-feature-wrap mt-n2 mb-30">
+                            <div className="contact-feature-wrap mt-n2 mb-30" style={{ overflowWrap: 'anywhere'}}>
                                 <div className="contact-feature">
                                     <div className="icon-btn">
                                         <i className="fa-solid fa-laptop-mobile"></i>

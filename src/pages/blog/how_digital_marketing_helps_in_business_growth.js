@@ -101,7 +101,6 @@ const How_digital_marketing_helps_in_business_growth = () => {
     };
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <BlogDetailsLayout blogData={blogContent} />
         </>
     )

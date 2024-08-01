@@ -136,7 +136,6 @@ const Services = () => {
 
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <section className="gr-bg3" id="service-sec">
                 <div className="round-container pt-5">
                     <div className="container">

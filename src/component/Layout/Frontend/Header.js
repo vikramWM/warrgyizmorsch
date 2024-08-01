@@ -59,7 +59,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
-        <header className="th-header header-layout4 header-absolute">
+        <header className="th-header header-layout4" style={{ position: 'relative', backgroundColor: '#18336c'}}>
             <div className="header-top" style={{ background: 'white'}}>
                 <div className="container">
                     <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">

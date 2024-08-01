@@ -97,7 +97,6 @@ const Top_10_digital_marketing_strategies_for_the_startups = () => {
     };
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <BlogDetailsLayout blogData={blogContent} />
         </>
     )

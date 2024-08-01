@@ -99,7 +99,6 @@ const How_digital_marketing_is_different_from_traditional_marketing = () => {
     };
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <BlogDetailsLayout blogData={blogContent} />
         </>
     )

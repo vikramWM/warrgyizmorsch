@@ -92,7 +92,6 @@ const How_does_digital_marketing_help_small_businesses = () => {
     };
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
             <BlogDetailsLayout blogData={blogContent} />
         </>
     )
