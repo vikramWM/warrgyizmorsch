@@ -39,18 +39,18 @@ function App() {
 				<Routes>
 					<Route path='/' element={<FrontEnd />}>
 						<Route path='/' element={<Index />} />
-						<Route path='/about' element={<About />} />
-						<Route path='/contact' element={<Contact />} />
+						<Route path='/about-us' element={<About />} />
+						<Route path='/contact-us' element={<Contact />} />
 						<Route path='/services' element={<Services />} />
-						<Route path='/service-omni-support' element={<OmniSupport />} />
-						<Route path='/service-virtual-learning' element={<VirtualLearning />} />
-						<Route path='/service-accounting-and-bookkeeping' element={<AccountingAndBookkeepingServices />} />
-						<Route path='/service-data-management' element={<DataManagement />} />
-						<Route path='/service-website-design-development' element={<WebsiteDesignDevelopment />} />
-						<Route path='/service-content-writing' element={<ContentWriting />} />
-						<Route path='/service-e-commerce' element={<E_CommerceServices />} />
-						<Route path='/service-voice-support' element={<VoiceSupport />} />
-						<Route path='/service-digital-marketing' element={<DigitalMarketing />} />
+						<Route path='/omni-support' element={<OmniSupport />} />
+						<Route path='/virtual-learning-services' element={<VirtualLearning />} />
+						<Route path='/accounting-bookkeeping-services-uk' element={<AccountingAndBookkeepingServices />} />
+						<Route path='/data-management-services' element={<DataManagement />} />
+						<Route path='/website-design-development' element={<WebsiteDesignDevelopment />} />
+						<Route path='/content-writing-service' element={<ContentWriting />} />
+						<Route path='/e-commerce-services' element={<E_CommerceServices />} />
+						<Route path='/call-preference-service' element={<VoiceSupport />} />
+						<Route path='/digital-marketing-services' element={<DigitalMarketing />} />
 						<Route path='/blog' element={<Blog />} />
 						<Route path='/how-digital-marketing-is-different-from-traditional-marketing' element={<How_digital_marketing_is_different_from_traditional_marketing />} />
 						<Route path='/how-digital-marketing-helps-in-business-growth' element={<How_digital_marketing_helps_in_business_growth />} />

@@ -6,55 +6,55 @@ const Services = () => {
             title: "Voice support",
             imgSrc: "assets/img/icon/csp.avif",
             description: "When you're looking to make your business stand out, voice assistance services add the missing feature...",
-            link: "/service-voice-support"
+            link: "/call-preference-service"
         },
         {
             title: "Omni Support",
             imgSrc: "assets/img/icon/omni.jpg",
             description: "In German it is 'der Kunde ist König' (customer is king) or in Japanese, it is 'okyakusama wa kamisama desu'...",
-            link: "/service-omni-support"
+            link: "/omni-support"
         },
         {
             title: "Virtual Learning",
             imgSrc: "assets/img/icon/virtual.jpg",
             description: "In the digital age, doing mundane tasks within the same organization is now rare. It is difficult to manage all aspects ...",
-            link: "/service-virtual-learning"
+            link: "/virtual-learning-services"
         },
         {
             title: "Accounting and Book Keeping",
             imgSrc: "assets/img/icon/accountandbook.jpg",
             description: "Finance accounting and bookkeeping services, is extremely important aspect for any business and certainly requires ...",
-            link: "/service-accounting-and-bookkeeping"
+            link: "/accounting-bookkeeping-services-uk"
         },
         {
             title: "E Commerce services",
             imgSrc: "assets/img/icon/e-commerce.avif",
             description: "Maintaining a stable sales volume is the primary goal of an online seller. However, it is difficult to achieve this unless ...",
-            link: "/service-e-commerce"
+            link: "/e-commerce-services"
         },
         {
             title: "Data management",
             imgSrc: "assets/img/icon/data-manage.avif",
             description: "To be an efficient fuel source for businesses, data must be managed efficiently. Data management services ...",
-            link: "/service-data-management"
+            link: "/data-management-services"
         },
         {
             title: "Website Design And Development",
             imgSrc: "assets/img/icon/website.avif",
             description: "A web design application development company that helps businesses build strong customer profiles and reaches ...",
-            link: "/service-website-design-development"
+            link: "/website-design-development"
         },
         {
             title: "Content Writing",
             imgSrc: "assets/img/icon/content.avif",
             description: "Content writing is all about drafting thoughts and business ideas on a paper. it is the process of planning,  ...",
-            link: "/service-content-writing"
+            link: "/content-writing-service"
         },
         {
             title: "Digital Marketing",
             imgSrc: "assets/img/icon/service_3d_3.png",
             description: "Intrinsicly redefine competitive e-business before adaptive potentialiti. Professionally build progressive users ...",
-            link: "/service-digital-marketing"
+            link: "/digital-marketing-services"
         }
     ];
 
