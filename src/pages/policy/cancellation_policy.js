@@ -3,10 +3,9 @@ import React from 'react'
 const CancellationPolicy = () => {
     return (
         <>
-            <div style={{ height: '108px', backgroundColor: '#18336c' }}></div>
-            <div class="space" id="contact-sec" style={{ backgroundImage: `url('assets/img/bg/form_bg_1.jpg')`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} >
-                <div class="container">
-                    <div class="title-area text-center">
+            <div className="space" id="contact-sec" style={{ backgroundImage: `url('assets/img/bg/form_bg_1.jpg')`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} >
+                <div className="container">
+                    <div className="title-area text-center">
                         <h1>Cancellation Policy</h1>
                     </div>
                     <div>

@@ -41,22 +41,43 @@ const Gallery = () => {
                     <div className="row gy-4">
                         {mediaItems.map((item, index) => (
                             <div className="col-md-6 col-xl-4" key={index}>
-                                <div className="service-card p-2">
+                                <div
+                                    key={index}
+                                    className="card p-1"
+                                    style={{
+                                        backdropFilter: 'blur(10px)',
+                                        backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                                        border: '1px solid rgba(255, 255, 255, 0.18)',
+                                        borderRadius: '8px',
+                                        padding: '10px',
+                                        marginBottom: '15px',
+                                        cursor: 'pointer',
+                                        transition: 'transform 0.7s ease, box-shadow 0.3s ease',
+                                    }}
+                                    onMouseEnter={(e) => {
+                                    e.currentTarget.style.transform = 'scale(1.05)';
+                                    e.currentTarget.style.boxShadow = '0px 4px 15px rgba(0, 0, 0, 0.2)';
+                                    }}
+                                    onMouseLeave={(e) => {
+                                    e.currentTarget.style.transform = 'scale(1)';
+                                    e.currentTarget.style.boxShadow = 'none';
+                                    }}
+                                >
                                     {item.type === 'photo' ? (
-                                        <img
-                                            src={item.url}
-                                            alt={`Media ${index + 1}`}
-                                            onClick={() => handleMediaClick(index)}
-                                            style={{ cursor: 'pointer', width: '100%', height: '230px' }}
-                                        />
+                                    <img
+                                        src={item.url}
+                                        alt={`Media ${index + 1}`}
+                                        onClick={() => handleMediaClick(index)}
+                                        style={{ width: '100%', height: '230px', objectFit: 'cover', borderRadius: '4px' }}
+                                    />
                                     ) : (
-                                        <video
-                                            src={item.url}
-                                            controls
-                                            muted
-                                            style={{ cursor: 'pointer', width: '100%',maxHeight: '230px' }}
-                                            onClick={() => handleMediaClick(index)}
-                                        />
+                                    <video
+                                        src={item.url}
+                                        controls
+                                        muted
+                                        onClick={() => handleMediaClick(index)}
+                                        style={{ width: '100%', maxHeight: '230px', objectFit: 'cover', borderRadius: '4px' }}
+                                    />
                                     )}
                                 </div>
                             </div>
@@ -76,7 +97,7 @@ const Gallery = () => {
                 </div>
             )}
 
-            <style jsx>{`
+            <style jsx="true">{`
                 .lightbox-container {
                     position: fixed;
                     top: 0;
