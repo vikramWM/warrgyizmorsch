@@ -7,12 +7,10 @@ const PrivacyPolicy = () => {
             <div class="space" id="contact-sec" style={{ backgroundImage: `url('assets/img/bg/form_bg_1.jpg')`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} >
                 <div class="container">
                     <div class="title-area text-center">
-                        <span class="sub-title">
-                            Privacy Policy
-                        </span>
-                        <h1 class="sec-title">Your Information Will Be <span class="text-theme"> Confidential</span></h1>
+                        <h1>Privacy Policy</h1>
                     </div>
                     <div>
+                        <h4>Your Information Will Be Confidential</h4>
                         <p>The purpose of taking the information such as the name, email address, contact number, etc to update you about the assignment and contact you in future for any help or any query. We are objected to keep the student's information confidential be it personal, financial or, any other. We request our user or visitors to read the policies which are mentioned here before he /she accesses the services for Assignment In Need. We know that the students share the information with trust and we respect their trust. The information we get from the clients is safe and is not shared with any third party.</p>
 
                         <h4>Important Notice</h4>

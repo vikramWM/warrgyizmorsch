@@ -26,6 +26,9 @@ import Top_10_digital_marketing_strategies_for_the_startups from './pages/blog/t
 import Top_digital_marketing_strategies_for_the_product_launch from './pages/blog/top_digital_marketing_strategies_for_the_product_launch.js';
 import How_does_digital_marketing_help_small_businesses from './pages/blog/how_does_digital_marketing_help_small_businesses.js';
 import PrivacyPolicy from './pages/policy/privacy_policy.js';
+import CancellationPolicy from './pages/policy/cancellation_policy.js';
+import TermsConditions from './pages/policy/terms_conditions.js';
+import DigitalMarketingPricing from './pages/digital_marketing_pricing.js';
 
 
 function App() {
@@ -60,6 +63,9 @@ function App() {
 						
 						<Route path='/career' element={<Career />} />
 						<Route path='/privacy-policy' element={<PrivacyPolicy />} />
+						<Route path='/cancellation-policy' element={<CancellationPolicy />} />
+						<Route path='/terms-conditions' element={<TermsConditions />} />
+						<Route path='/digital-marketing-pricing' element={<DigitalMarketingPricing />} />
 						<Route path='*' element={<Error />} />
 					</Route>
 				</Routes>
