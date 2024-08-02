@@ -2,90 +2,48 @@ import React from 'react'
 import ProductSlider from '../component/ProductSlider';
 
 const Index = () => {
-    const cardData = [
-        `
-        <div class="swiper-slide" style="align-content: center; background-image: url('assets/img/slide/slide1.png'); background-size: cover, cover; background-repeat: no-repeat, no-repeat; background-position: center; height: 550px; width: 100%;">
-            <div style="padding-left: 10%;">
-                <div style="font-family: 'Roboto', 'Arial'; color: #18336c; font-size: 375%; text-shadow: none;
-                    line-height: 1; font-weight: normal; font-style: normal; text-decoration: none; text-align: left;
-                    letter-spacing: normal; word-spacing: normal; text-transform: none; font-weight: 700;">
-                    WE ARE AVAILABLE <br> ALL TIMES
-                </div>
-                <div style="padding-top: 10px; font-family: 'Roboto', 'Arial'; color: aliceblue; font-size: 100%;
-                    text-shadow: none; line-height: 1; font-weight: normal; font-style: normal; text-decoration: none;
-                    text-align: left; letter-spacing: normal; word-spacing: normal; text-transform: none;
-                    font-weight: 700;">
-                    We are standing with you 24*7 times <br>
-                    to bear your burden of projects. <br>
-                    Our markting team, customer service team and other <br>
-                    staff will assist you in every possible manner.
-                </div>
-                <div style="padding-top: 10px;">
-                    <button style="background-color: #18336c; color: white; padding: 10px 20px; border: none;
-                        border-radius: 50px; font-family: 'Roboto', 'Arial', sans-serif; font-size: 16px;
-                        cursor: pointer; transition: background-color 0.3s ease;">
-                        Contact
-                    </button>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide" style="align-content: center; background-image: url('assets/img/slide/slide2.png'); background-size: cover, cover; background-repeat: no-repeat, no-repeat; background-position: center; height: 550px; width: 100%;">
-            <div style="padding-left: 10%;">
-                <div style="font-family: 'Roboto', 'Arial'; color: #18336c; font-size: 375%; text-shadow: none;
-                    line-height: 1; font-weight: normal; font-style: normal; text-decoration: none; text-align: left;
-                    letter-spacing: normal; word-spacing: normal; text-transform: none; font-weight: 700;">
-                    WE BELIEVE IN <br>  PERFECTION!
-                </div>
-                <div style="padding-top: 10px; font-family: 'Roboto', 'Arial'; color: aliceblue; font-size: 100%;
-                    text-shadow: none; line-height: 1; font-weight: normal; font-style: normal; text-decoration: none;
-                    text-align: left; letter-spacing: normal; word-spacing: normal; text-transform: none;
-                    font-weight: 700;">
-                    Our skilled staff is proficient in <br>
-                    numerous processes of business-like, data management, <br>
-                    IT solutions, web development, mobile development and many more <br>
-                    and determined to time limitations.
-                </div>
-                <div style="padding-top: 10px;">
-                    <button style="background-color: #18336c; color: white; padding: 10px 20px; border: none;
-                        border-radius: 50px; font-family: 'Roboto', 'Arial', sans-serif; font-size: 16px;
-                        cursor: pointer; transition: background-color 0.3s ease;">
-                        Contact
-                    </button>
-                </div>
-            </div>
-        </div>
-        `,
-        `
-        <div class="swiper-slide" style="align-content: center; background-image: url('assets/img/slide/slide3.png'); background-size: cover, cover; background-repeat: no-repeat, no-repeat; background-position: center; height: 550px; width: 100%;">
-            <div style="padding-left: 10%;">
-                <div style="font-family: 'Roboto', 'Arial'; color: #18336c; font-size: 375%; text-shadow: none;
-                    line-height: 1; font-weight: normal; font-style: normal; text-decoration: none; text-align: left;
-                    letter-spacing: normal; word-spacing: normal; text-transform: none; font-weight: 700;">
-                    OUR WILL IS TO SEE <br>  YOU AT THE TOP
-                </div>
-                <div style="padding-top: 10px; font-family: 'Roboto', 'Arial'; color: aliceblue; font-size: 100%;
-                    text-shadow: none; line-height: 1; font-weight: normal; font-style: normal; text-decoration: none;
-                    text-align: left; letter-spacing: normal; word-spacing: normal; text-transform: none;
-                    font-weight: 700;">
-                    We consider our self being a partner to your <br>
-                    Organization when it comes to provide quality job. We equally <br>
-                    understand the Individual's value and our best to <br>
-                    meet your expectation.
-                </div>
-                <div style="padding-top: 10px;">
-                    <button style="background-color: #18336c; color: white; padding: 10px 20px; border: none;
-                        border-radius: 50px; font-family: 'Roboto', 'Arial', sans-serif; font-size: 16px;
-                        cursor: pointer; transition: background-color 0.3s ease;">
-                        Contact
-                    </button>
-                </div>
-            </div>
-        </div>
-        `,
-        
+    // MainSlider-start-------------------------------
+    const mainSlider = [
+        {
+        title: "WE ARE AVAILABLE <br> ALL TIMES",
+        description: "We are standing with you 24*7 times <br>to bear your burden of projects. <br>Our markting team, customer service team and other <br>staff will assist you in every possible manner.",
+        link: "/contact-us",
+        btnText: "Contact Us"
+        },
+        {
+        title: "WE BELIEVE IN <br>  PERFECTION!",
+        description: "Our skilled staff is proficient in <br>numerous processes of business-like, data management, <br>IT solutions, web development, mobile development and many more <br>and determined to time limitations.",
+        link: "/contact-us",
+        btnText: "Contact Us"
+        },
+        {
+        title: "OUR WILL IS TO SEE <br>  YOU AT THE TOP",
+        description: "We consider our self being a partner to your <br>Organization when it comes to provide quality job. We equally <br>understand the Individual's value and our best to <br>meet your expectation.",
+        link: "/contact-us",
+        btnText: "Contact Us"
+        }
     ];
+  
+    const generateCardHTMLForMainSlider = (cardContent) => {
+
+        const title = cardContent.title;
+        const description = cardContent.description;
+    
+        return `  
+            <h1 class="hero-title text-white" style="overflow-wrap: anywhere;">${title}</h1>
+            <p class="hero-text text-white" style="overflow-wrap: anywhere;">${description}</p>
+            <div class="btn-group mt-35" style="overflow-wrap: anywhere;">
+                <a href="${cardContent.link}" class="th-btn style6 style-radius">${cardContent.btnText}</a>
+            </div>
+        `;
+    };
+  
+    const generateSliderHTMLForMainSlider = (data) => {
+        return data.map(generateCardHTMLForMainSlider);
+    };
+
+    const cardHTMLDataForMainSlider = generateSliderHTMLForMainSlider(mainSlider);
+// MainSlider-end-------------------------------
     
 // AboutSlider-start-------------------------------
     const aboutSlider = [
@@ -485,16 +443,8 @@ const Index = () => {
                 <div className="hero-inner">
                     <div className="th-hero-bg" data-bg-src="assets/img/hero/hero_img_5_1.png"style={{ backgroundImage: `url('assets/img/hero/hero_img_5_1.png')` }}></div>
                     <div className="container th-container5">
-                        <div className="hero-style5">
-                            <span className="sub-title style1 text-white">We're Leading Startup Agency</span>
-                            <h1 className="hero-title text-white">Clear Thinking Makes Bright Future!</h1>
-                            <p className="hero-text text-white">
-                                Repurpose intuitive total linkage after timely mindshare. Credibly
-                                coonate reliable collaboration and idea-sharing after.
-                            </p>
-                            <div className="btn-group mt-35">
-                                <a href="/services" className="th-btn style6 style-radius">View Services</a>
-                            </div>
+                        <div className="hero-style5" style={{ maxWidth: '100%'}}>
+                            <ProductSlider cardData={cardHTMLDataForMainSlider} slidesPerView={1}/>
                         </div>
                     </div>
                 </div>
@@ -544,9 +494,7 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="slider-area">
-                <ProductSlider cardData={cardData} slidesPerView={1} />
-            </div> */}
+            
             <div className="th-hero-wrapper hero-3" id="hero">
                 <div className="hero-img">
                     <img src="assets/img/hero/hero_img_3_1.png" alt="Hero Image" />
