@@ -29,6 +29,7 @@ import PrivacyPolicy from './pages/policy/privacy_policy.js';
 import CancellationPolicy from './pages/policy/cancellation_policy.js';
 import TermsConditions from './pages/policy/terms_conditions.js';
 import DigitalMarketingPricing from './pages/digital_marketing_pricing.js';
+import ScrollTopButton from './component/ScrollTopButton.js';
 
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
 					</Route>
 				</Routes>
 			</Router>
+			<ScrollTopButton />
 		</div>
 	);
 }
