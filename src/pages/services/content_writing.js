@@ -3,8 +3,7 @@ import React from 'react';
 const ContentWriting = () => {
     return (
         <>
-            {/* <div style={{ height: '108px', backgroundColor: '#18336c' }}></div> */}
-            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover', paddingTop: '100px' }} id="service-sec">
+            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }} id="service-sec">
                 <div className="round-container pt-5">
                     <div className="container">
                         <div className="title-area text-center">
@@ -20,9 +19,6 @@ const ContentWriting = () => {
                         <div className="col">
                             <div className="page-single">
                                 <div className="page-content">
-                                    {/* <div className="text-center" style={{ paddingTop: '30px'}}>
-                                        <h2 className="h3 page-title">Content Writing Services</h2>
-                                    </div> */}
                                     <h4 style={{ paddingTop: '30px'}}>
                                         Achieve New Heights With Our Professional Content Writing Services
                                     </h4>
@@ -78,10 +74,7 @@ const ContentWriting = () => {
                                     <div className="row">
                                         <div className="col-md-6 mb-30">
                                             <div className="th-video">
-                                                <img className="w-100" src="assets/img/icon/content.avif" alt="service" /> 
-                                                {/* <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
-                                                    <i className="fas fa-play"></i>
-                                                </a> */}
+                                                <img className="w-100" src="assets/img/icon/content.avif" alt="service" />
                                             </div>
                                         </div>
                                         <div className="col-md-6 mb-30">
@@ -99,12 +92,14 @@ const ContentWriting = () => {
                                     <h3 className="h4 mb-20">Benefits With Our Service</h3>
                                     <div className="service-feature-wrap">
                                         <div className="service-feature">
-                                            <div className="service-feature_icon"><img src="assets/img/icon/service_feature_1.svg"
-                                                alt="icon" /></div>
+                                            <div className="service-feature_icon">
+                                                <img src="assets/img/icon/service_feature_1.svg" alt="icon" />
+                                            </div>
                                             <div className="media-body">
                                                 <h4 className="service-feature_title">Flexible Solutions</h4>
-                                                <p className="service-feature_text">Completely grow multimedia based content before
-                                                    global scenarios.</p>
+                                                <p className="service-feature_text">
+                                                    Completely grow multimedia based content before global scenarios.
+                                                </p>
                                             </div>
                                         </div>
                                         <div className="service-feature">
@@ -112,8 +107,9 @@ const ContentWriting = () => {
                                                 alt="icon" /></div>
                                             <div className="media-body">
                                                 <h4 className="service-feature_title">24/7 Unlimited Support</h4>
-                                                <p className="service-feature_text">Completely grow multimedia based content before
-                                                    global scenarios.</p>
+                                                <p className="service-feature_text">
+                                                    Completely grow multimedia based content before global scenarios.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -201,15 +197,17 @@ const ContentWriting = () => {
                     </div>
                 </div>
             </section>            
-            <div className="scroll-top"><svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                    style={{
-                        transition: 'stroke-dashoffset 10ms linear 0s',
-                        strokeDasharray: '307.919, 307.919',
-                        strokeDashoffset: '307.919'
-                    }}>
-                </path>
-            </svg></div>
+            <div className="scroll-top">
+                <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                        style={{
+                            transition: 'stroke-dashoffset 10ms linear 0s',
+                            strokeDasharray: '307.919, 307.919',
+                            strokeDashoffset: '307.919'
+                        }}>
+                    </path>
+                </svg>
+            </div>
         </>
     )
 };

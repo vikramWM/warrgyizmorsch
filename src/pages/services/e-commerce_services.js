@@ -3,8 +3,7 @@ import React from 'react'
 const E_CommerceServices = () => {
     return (
         <>
-            {/* <div style={{ height: '108px', backgroundColor: '#18336c' }}></div> */}
-            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover', paddingTop: '100px' }} id="service-sec">
+            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }} id="service-sec">
                 <div className="round-container pt-5">
                     <div className="container">
                         <div className="title-area text-center">
@@ -20,9 +19,6 @@ const E_CommerceServices = () => {
                         <div className="col">
                             <div className="page-single">
                                 <div className="page-content">
-                                    {/* <div className="text-center" style={{ paddingTop: '30px'}}>
-                                        <h2 className="h3 page-title">E Commerce Services</h2>
-                                    </div> */}
                                     <h4 style={{ paddingTop: '30px'}}>
                                         Unlock Business Potential: <br />The Power of E Commerce Outsourcing services
                                     </h4>
@@ -41,9 +37,6 @@ const E_CommerceServices = () => {
                                         <div className="col-md-6 mb-30">
                                             <div className="th-video">
                                                 <img className="w-100" src="assets/img/icon/e-commerce.avif" alt="service" /> 
-                                                {/* <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
-                                                    <i className="fas fa-play"></i>
-                                                </a> */}
                                             </div>
                                         </div>
                                         <div className="col-md-6 mb-30">
@@ -224,15 +217,17 @@ const E_CommerceServices = () => {
                     </div>
                 </div>
             </section>            
-            <div className="scroll-top"><svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                    style={{
-                        transition: 'stroke-dashoffset 10ms linear 0s',
-                        strokeDasharray: '307.919, 307.919',
-                        strokeDashoffset: '307.919'
-                    }}>
-                </path>
-            </svg></div>
+            <div className="scroll-top">
+                <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                        style={{
+                            transition: 'stroke-dashoffset 10ms linear 0s',
+                            strokeDasharray: '307.919, 307.919',
+                            strokeDashoffset: '307.919'
+                        }}>
+                    </path>
+                </svg>
+            </div>
         </>
     )
 }

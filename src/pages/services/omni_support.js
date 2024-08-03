@@ -3,8 +3,7 @@ import React from 'react';
 const OmniSupport = () => {
     return (
         <>
-            {/* <div style={{ height: '108px', backgroundColor: '#18336c' }}></div> */}
-            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover', paddingTop: '100px' }} id="service-sec">
+            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }} id="service-sec">
                 <div className="round-container pt-5">
                     <div className="container">
                         <div className="title-area text-center">
@@ -20,9 +19,6 @@ const OmniSupport = () => {
                         <div className="col">
                             <div className="page-single">
                                 <div className="page-content">
-                                    {/* <div className="text-center" style={{ paddingTop: '30px'}}>
-                                        <h2 className="h3 page-title">Omni Support</h2>
-                                    </div> */}
                                     <h4 style={{ paddingTop: '30px'}}>
                                         Overview
                                     </h4>
@@ -37,10 +33,7 @@ const OmniSupport = () => {
                                     <div className="row">
                                         <div className="col-md-6 mb-30">
                                             <div className="th-video">
-                                                <img className="w-100" src="assets/img/icon/omni.jpg" alt="service" /> 
-                                                {/* <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
-                                                    <i className="fas fa-play"></i>
-                                                </a> */}
+                                                <img className="w-100" src="assets/img/icon/omni.jpg" alt="service" />
                                             </div>
                                         </div>
                                         <div className="col-md-6 mb-30">
@@ -91,57 +84,7 @@ const OmniSupport = () => {
                                                     global scenarios.</p>
                                             </div>
                                         </div>
-                                    </div>
-                                    {/* <h3 className="h4 mt-35 mb-4">Questions About Service</h3>
-                                    <div className="accordion-area accordion" id="faqAccordion">
-                                        <div className="accordion-card style2 active">
-                                            <div className="accordion-header" id="collapse-item-1"><button className="accordion-button"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
-                                                aria-expanded="true" aria-controls="collapse-1">Where can I get analytics
-                                                help?</button></div>
-                                            <div id="collapse-1" className="accordion-collapse collapse show"
-                                                aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
-                                                <div className="accordion-body">
-                                                    <p className="faq-text">Synergistically evisculate ubiquitous niches whereas
-                                                        holistic resources. Assertively evolve prospective methods of
-                                                        empowerment before diverse web-readiness. Seamlessly incentivize
-                                                        market-driven schemas rather than clicks-and-mortar benefits.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-card style2">
-                                            <div className="accordion-header" id="collapse-item-2"><button
-                                                className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse-2" aria-expanded="false"
-                                                aria-controls="collapse-2">How long should a business plan be?</button>
-                                            </div>
-                                            <div id="collapse-2" className="accordion-collapse collapse"
-                                                aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
-                                                <div className="accordion-body">
-                                                    <p className="faq-text">Synergistically evisculate ubiquitous niches whereas
-                                                        holistic resources. Assertively evolve prospective methods of
-                                                        empowerment before diverse web-readiness. Seamlessly incentivize
-                                                        market-driven schemas rather than clicks-and-mortar benefits.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-card style2">
-                                            <div className="accordion-header" id="collapse-item-3"><button
-                                                className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse-3" aria-expanded="false"
-                                                aria-controls="collapse-3">How To Choose A Good QA Consultant?</button>
-                                            </div>
-                                            <div id="collapse-3" className="accordion-collapse collapse"
-                                                aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
-                                                <div className="accordion-body">
-                                                    <p className="faq-text">Synergistically evisculate ubiquitous niches whereas
-                                                        holistic resources. Assertively evolve prospective methods of
-                                                        empowerment before diverse web-readiness. Seamlessly incentivize
-                                                        market-driven schemas rather than clicks-and-mortar benefits.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> */}
+                                    </div>                                    
                                 </div>
                             </div>
                         </div>
@@ -149,15 +92,17 @@ const OmniSupport = () => {
                     </div>
                 </div>
             </section>            
-            <div className="scroll-top"><svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                    style={{
-                        transition: 'stroke-dashoffset 10ms linear 0s',
-                        strokeDasharray: '307.919, 307.919',
-                        strokeDashoffset: '307.919'
-                    }}>
-                </path>
-            </svg></div>
+            <div className="scroll-top">
+                <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                        style={{
+                            transition: 'stroke-dashoffset 10ms linear 0s',
+                            strokeDasharray: '307.919, 307.919',
+                            strokeDashoffset: '307.919'
+                        }}>
+                    </path>
+                </svg>
+            </div>
         </>
     )
 };

@@ -2,18 +2,17 @@ import React from 'react';
 
 const BlogDetailsLayout = ({ blogData }) => {
     return (
-        <>
-            <div className="breadcumb-wrapper pt-5 pb-5" style={{ backgroundImage: 'url(assets/img/bg/bg_overlay_1.png)', backgroundPosition: 'center', backgroundSize: 'cover' }}>
-                <div className="container">
-                    <div className="breadcumb-content">
-                        <ul className="breadcumb-menu pb-3">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/blog">Blog</a></li>
-                        </ul>
-                        <h1 className="breadcumb-title">{blogData.title}</h1>
+        <>            
+            <section className="" style={{ backgroundImage: `url('assets/img/service/serviceD.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover', }} id="service-sec">
+                <div className="round-container pt-5">
+                    <div className="container">
+                        <div className="title-area text-center">
+                            <span className="sub-title text-white">BLOG</span>
+                            <h1 className="sec-title text-white">{blogData.title}</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <section className="th-blog-wrapper blog-details space-top space-extra-bottom">
                 <div className="container">
                     <div className="row">
