@@ -27,18 +27,18 @@ const BlogDetailsLayout = ({ blogData }) => {
                                 <div className="blog-content">
                                     <div className="blog-meta">
                                         {blogData.authorImage && blogData.author && (
-                                            <a className="author" href="javascript:void(0);">
+                                            <a className="author" href="" onClick={(event) => event.preventDefault()}>
                                                 <img src={blogData.authorImage} alt="Author" />
                                                 By {blogData.author}
                                             </a>
                                         )}
                                         {blogData.date && (
-                                            <a href="javascript:void(0);">
+                                            <a href="" onClick={(event) => event.preventDefault()}>
                                                 <i className="fa-light fa-calendar-days"></i>
                                                 {blogData.date}
                                             </a>
                                         )}
-                                        <a href="javascript:void(0);">
+                                        <a href="" onClick={(event) => event.preventDefault()}>
                                             <i className="fa-regular fa-comments"></i>
                                             Comments ({blogData.comments?.length || 0})
                                         </a>
@@ -55,7 +55,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                                     <span className="share-links-title">Tags:</span>
                                                     <div className="tagcloud">
                                                         {blogData.tags.map((tag, index) => (
-                                                            <a key={index} href="javascript:void(0);">{tag}</a>
+                                                            <a key={index} href="" onClick={(event) => event.preventDefault()}>{tag}</a>
                                                         ))}
                                                     </div>
                                                 </div>
@@ -94,7 +94,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                                             <h3 className="name">{comment.author}</h3>
                                                             <p className="text">{comment.text}</p>
                                                             <div className="reply_and_edit">
-                                                                <a href="javascript:void(0);" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
+                                                                <a href="" onClick={(event) => event.preventDefault()} className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -146,7 +146,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                         <ul>
                                             {blogData.categories.map((category, index) => (
                                                 <li key={index}>
-                                                    <a href={category.url}>{category.name}</a>
+                                                    <a href={category.url} onClick={(event) => event.preventDefault()}>{category.name}</a>
                                                 </li>
                                             ))}
                                         </ul>
@@ -174,7 +174,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                             {blogData.recentPosts.map((post) => (
                                                 <div key={post.id} className="recent-post">
                                                     <div className="media-img">
-                                                        <a href={`javascript:void(0);`}>
+                                                        <a href="" onClick={(event) => event.preventDefault()}>
                                                             <img src={post.image} alt={post.title} />
                                                         </a>
                                                     </div>
@@ -185,7 +185,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                                             </a>
                                                         </h4>
                                                         <div className="recent-post-meta">
-                                                            <a href="javascript:void(0);"><i className="fal fa-calendar-days"></i>{post.date}</a>
+                                                            <a href="" onClick={(event) => event.preventDefault()}><i className="fal fa-calendar-days"></i>{post.date}</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -198,7 +198,7 @@ const BlogDetailsLayout = ({ blogData }) => {
                                         <h3 className="widget_title">Popular Tags</h3>
                                         <div className="tagcloud">
                                             {blogData.popularTags.map((tag, index) => (
-                                                <a key={index} href="javascript:void(0);">{tag}</a>
+                                                <a key={index} href="" onClick={(event) => event.preventDefault()}>{tag}</a>
                                             ))}
                                         </div>
                                     </div>

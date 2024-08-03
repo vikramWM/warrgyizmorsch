@@ -34,12 +34,12 @@ const Top_digital_marketing_strategies_for_the_product_launch = () => {
             }
         ],
         categories: [
-            { name: "IT Solution", url: "javascript:void(0);" },
-            { name: "SEO Marketing", url: "javascript:void(0);" },
-            { name: "Web Development", url: "javascript:void(0);" },
-            { name: "Cloud Solution", url: "javascript:void(0);" },
-            { name: "Network Marketing", url: "javascript:void(0);" },
-            { name: "UI/UX Design", url: "javascript:void(0);" }
+            { name: "IT Solution", url: "" },
+            { name: "SEO Marketing", url: "" },
+            { name: "Web Development", url: "" },
+            { name: "Cloud Solution", url: "" },
+            { name: "Network Marketing", url: "" },
+            { name: "UI/UX Design", url: "" }
         ],
         gallery: [
             { src: "assets/img/widget/gallery_1_1.jpg" },

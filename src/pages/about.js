@@ -28,11 +28,11 @@ const About = () => {
                                 <i className="fa-regular fa-arrow-right ms-2"></i>
                             </a>
                             <div className="call-btn">
-                                <a href="javascript:void(0);" className="play-btn popup-video">
+                                <a href="" onClick={(event) => event.preventDefault()} className="play-btn popup-video">
                                     <i className="fas fa-play"></i>
                                 </a>
                                 <div className="media-body">
-                                    <a href="javascript:void(0);" className="btn-title popup-video">
+                                    <a href="" onClick={(event) => event.preventDefault()}className="btn-title popup-video">
                                         Watch Our Story
                                     </a> 
                                     <span className="btn-text">Subscribe Now</span>

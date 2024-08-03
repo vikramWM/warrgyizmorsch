@@ -454,26 +454,13 @@ const Index = () => {
                     <div className="counter-card4-wrap">
                         <div className="counter-card4">
                             <div className="counter-card4_icon">
-                                <img src="assets/img/icon/counter_card_4_1.svg" alt="" />
-                            </div>
-                            <div className="media-body">
-                                <h3 className="box-number"><span className="counter-number">20</span>X</h3>
-                                <h6 className="counter-title">Return on investment</h6>
-                                <p className="counter-text mb-0">
-                                    Return on investment is a financial metric that measures
-                                </p>
-                            </div>
-                        </div>
-                        <div className="divider"></div>
-                        <div className="counter-card4">
-                            <div className="counter-card4_icon">
                                 <img src="assets/img/icon/counter_card_4_2.svg" alt="" />
                             </div>
                             <div className="media-body">
-                                <h3 className="box-number"><span className="counter-number">150</span>k+</h3>
-                                <h6 className="counter-title">Keywords optimization</h6>
+                                <h3 className="box-number">SEO</h3>
+                                <h6 className="counter-title">Search Engine Optimization</h6>
                                 <p className="counter-text mb-0">
-                                    keywords into online content, such as websites, blogs
+                                    Boost your online visibility with expert SEO services. Our tailored strategies drive organic traffic and improve your search engine rankings.
                                 </p>
                             </div>
                         </div>
@@ -483,10 +470,23 @@ const Index = () => {
                                 <img src="assets/img/icon/counter_card_4_3.svg" alt="" />
                             </div>
                             <div className="media-body">
-                                <h3 className="box-number"><span className="counter-number">10,000</span>+</h3>
-                                <h6 className="counter-title">Successful campaigns</h6>
+                                <h3 className="box-number">SMM</h3>
+                                <h6 className="counter-title">Social Media Marketing</h6>
                                 <p className="counter-text mb-0">
-                                    Successful campaigns leverage strategic planning goals
+                                    Enhance your brand's presence with expert social media marketing. We create engaging content and campaigns to connect you with your audience and grow your online community.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="divider"></div>
+                        <div className="counter-card4">
+                            <div className="counter-card4_icon">
+                                <img src="assets/img/icon/counter_card_4_1.svg" alt="" />
+                            </div>
+                            <div className="media-body">
+                                <h3 className="box-number">SEM</h3>
+                                <h6 className="counter-title">Search Engine Marketing</h6>
+                                <p className="counter-text mb-0">
+                                    Drive more leads with our comprehensive SEM services. We combine paid search and SEO strategies to enhance your online visibility and achieve top rankings
                                 </p>
                             </div>
                         </div>
@@ -519,11 +519,11 @@ const Index = () => {
                                 <i className="fa-regular fa-arrow-right ms-2"></i>
                             </a>
                             <div className="call-btn">
-                                <a href="javascript:void(0);" className="play-btn popup-video">
+                                <a href="" onClick={(event) => event.preventDefault()} className="play-btn popup-video">
                                     <i className="fas fa-play"></i>
                                 </a>
                                 <div className="media-body">
-                                    <a href="javascript:void(0);" className="btn-title popup-video">Watch Our Story</a> 
+                                    <a href="" onClick={(event) => event.preventDefault()} className="btn-title popup-video">Watch Our Story</a> 
                                     <span className="btn-text">Subscribe Now</span>
                                 </div>
                             </div>

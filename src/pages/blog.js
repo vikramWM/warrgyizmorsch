@@ -140,10 +140,10 @@ const Blog = () => {
                                     </div>
                                     <div className="blog-content" style={styles.blogContent}>
                                         <div className="blog-meta" style={styles.blogMeta}>
-                                            <a href="javascript:void(0);" style={styles.blogMetaLink}>
+                                            <a href="" onClick={(event) => event.preventDefault()} style={styles.blogMetaLink}>
                                                 <i className="fal fa-calendar-days"></i> {blog.date}
                                             </a>
-                                            <a href="javascript:void(0);" style={styles.blogMetaLink}>
+                                            <a href="" onClick={(event) => event.preventDefault()} style={styles.blogMetaLink}>
                                                 <i className="fal fa-comments"></i> {blog.comments}
                                             </a>
                                         </div>
