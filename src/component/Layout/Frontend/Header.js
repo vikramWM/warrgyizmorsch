@@ -44,7 +44,7 @@ const Header = () => {
                                 <li><a href="/content-writing-service">Content Writing Services</a></li>
                                 <li><a href="/data-management-services">Data Management Services</a></li>
                                 <li><a href="/e-commerce-services">E Commerce Services</a></li>
-                                <li><a href="/omni-support">Omni Support Services</a></li>
+                                {/* <li><a href="/omni-support">Omni Support Services</a></li> */}
                                 <li><a href="/virtual-learning-services">Virtual Learning Services</a></li>
                                 <li><a href="/call-preference-service">Voice Support Services</a></li>
                                 <li><a href="/website-design-development">Web Design & Development Services</a></li>
@@ -108,7 +108,7 @@ const Header = () => {
                                                 <li><a href="/content-writing-service">Content Writing Services</a></li>
                                                 <li><a href="/data-management-services">Data Management Services</a></li>
                                                 <li><a href="/e-commerce-services">E Commerce Services</a></li>
-                                                <li><a href="/omni-support">Omni Support Services</a></li>
+                                                {/* <li><a href="/omni-support">Omni Support Services</a></li> */}
                                                 <li><a href="/virtual-learning-services">Virtual Learning Services</a></li>
                                                 <li><a href="/call-preference-service">Voice Support Services</a></li>
                                                 <li><a href="/website-design-development">Web Design & Development Services</a></li>

@@ -43,7 +43,7 @@ function App() {
 						<Route path='/about-us' element={<About />} />
 						<Route path='/contact-us' element={<Contact />} />
 						<Route path='/services' element={<Services />} />
-						<Route path='/omni-support' element={<OmniSupport />} />
+						{/* <Route path='/omni-support' element={<OmniSupport />} /> */}
 						<Route path='/virtual-learning-services' element={<VirtualLearning />} />
 						<Route path='/accounting-bookkeeping-services-uk' element={<AccountingAndBookkeepingServices />} />
 						<Route path='/data-management-services' element={<DataManagement />} />

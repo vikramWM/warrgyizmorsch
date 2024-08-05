@@ -8,12 +8,12 @@ const Services = () => {
             description: "When you're looking to make your business stand out, voice assistance services add the missing feature...",
             link: "/call-preference-service"
         },
-        {
-            title: "Omni Support",
-            imgSrc: "assets/img/icon/omni.jpg",
-            description: "In German it is 'der Kunde ist König' (customer is king) or in Japanese, it is 'okyakusama wa kamisama desu'...",
-            link: "/omni-support"
-        },
+        // {
+        //     title: "Omni Support",
+        //     imgSrc: "assets/img/icon/omni.jpg",
+        //     description: "In German it is 'der Kunde ist König' (customer is king) or in Japanese, it is 'okyakusama wa kamisama desu'...",
+        //     link: "/omni-support"
+        // },
         {
             title: "Virtual Learning",
             imgSrc: "assets/img/icon/virtual.jpg",
