@@ -272,7 +272,7 @@ const Index = () => {
         {
             imageSrc: "assets/img/blog/blog_1.jpg",
             altText: "blog image",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: 2,
             title: "How digital marketing is different from traditional marketing?",
             description: "Traditional marketing is considered when marketing activities for an organization are undertaken in a conventional way such as by television.",
@@ -281,7 +281,7 @@ const Index = () => {
         {
             imageSrc: "assets/img/blog/blog_2.jpg",
             altText: "blog image",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: 2,
             title: "How digital marketing helps in business growth?",
             description: "With the continuous changing of working culture globally, Digital marketing has taken the place of conventional marketing. With the great evolution of modern technology, small and medium businesses...",
@@ -290,7 +290,7 @@ const Index = () => {
         {
             imageSrc: "assets/img/blog/blog_3.jpg",
             altText: "blog image",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: 2,
             title: "Top Digital Marketing Strategies for gym",
             description: "Nowadays, when people do not have much time for themselves due to the hustle in their lives, they face many health-related issues...",
@@ -299,7 +299,7 @@ const Index = () => {
         {
             imageSrc: "assets/img/blog/blog_4.jpg",
             altText: "blog image",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: 2,
             title: "Top 10 Digital Marketing Strategies for the startups",
             description: "It is very difficult to persist in the market and establish your startups when competition is quite high in every business...",
@@ -308,7 +308,7 @@ const Index = () => {
         {
             imageSrc: "assets/img/blog/blog_5.jpg",
             altText: "blog image",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: 2,
             title: "Top Digital Marketing Strategies for product launch",
             description: "We all eagerly await product launch programs. After putting in much attention and hard work, the final day arrives...",
@@ -317,7 +317,7 @@ const Index = () => {
         {
             imageSrc: "assets/img/blog/blog_6.jpg",
             altText: "blog image",
-            date: "15 Jan, 2024",
+            date: "15 Jan, 2022",
             comments: 2,
             title: "How does Digital Marketing Help Small Businesses?",
             description: "It's a fact that good marketing plays a crucial role in growing a business. It can enhance your business and boost confidence...",

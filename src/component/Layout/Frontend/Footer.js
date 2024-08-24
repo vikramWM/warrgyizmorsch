@@ -69,21 +69,21 @@ const Footer = () => {
                                             <div className="icon-btn"><i className="fa-solid fa-location-dot"></i></div>
                                             <div className="media-body">
                                                 <p className="contact-feature_label">office location</p>
-                                                <a href="https://www.google.com/maps" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>Warrgyizmorsch private limited,27 krishna vihar Behind mds school old rto Pratap nagar Udaipur,  Rajasthan</a>
+                                                <a href="https://www.google.com/maps" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>Warrgyizmorsch private limited, 410,  4th floor, Ashoka palace, Shobhagpura, Udaipur, Rajasthan</a>
                                             </div>
                                         </div>
-                                        <div className="contact-feature">
+                                        {/* <div className="contact-feature">
                                             <div className="icon-btn"><i className="fa-solid fa-location-dot"></i></div>
                                             <div className="media-body">
                                                 <p className="contact-feature_label">office location</p>
-                                                <a href="https://www.google.com/maps" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>first floor, Bilt mansions, suite 114, 4-16 Deptford Bridge, London SE8 4HH, United Kingdom</a>
+                                                <a href="https://www.google.com/maps" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>First floor, Bilt mansions, suite 114, 4-16 Deptford Bridge, London SE8 4HH, United Kingdom</a>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="contact-feature">
                                             <div className="icon-btn"><i className="fa-solid fa-phone"></i></div>
                                             <div className="media-body">
                                                 <p className="contact-feature_label">Phone Number</p>
-                                                <a href="tel:+442030533844" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>+44 2030533844</a>
+                                                <a href="tel:+918693085077" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>+91 8693085077</a>
                                             </div>
                                         </div>
                                         <div className="contact-feature">

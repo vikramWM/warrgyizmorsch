@@ -67,7 +67,7 @@ const Header = () => {
                             <div className="header-links">
                                 <ul>
                                     <li><i className="fas fa-phone"></i><a href="tel:+442030533844">+44 2030533844</a></li>
-                                    <li><i className="fas fa-phone"></i><a href="tel:+919257874994">+91 9257874994</a></li>
+                                    <li><i className="fas fa-phone"></i><a href="tel:+918693085077">+91 8693085077</a></li>
                                     <li><i className="fas fa-envelope"></i><a href="mailto:info@warrgyizmorsch.com">info@warrgyizmorsch.com</a></li>
                                 </ul>
                             </div>

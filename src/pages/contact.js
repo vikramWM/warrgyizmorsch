@@ -54,17 +54,17 @@ const Contact = () => {
                                             <div className='text-center' style={{color: '#18336c', fontSize: '20px'}}><i className="fas fa-phone"></i></div>
                                             <div className='text-center' style={{color: 'black', fontSize: '20px'}}><b>Call Us Anytime:</b></div>
                                             <div className='text-center'><a href="tel:+442030533844">+44 2030533844</a></div>
-                                            <div className='text-center'><a href="tel:+919784710045">+91 9784710045</a></div>
+                                            <div className='text-center'><a href="tel:+918693085077">+91 8693085077</a></div>
                                         </div>
-                                        <div className='col-12 col-md-12 col-lg-6 card p-2'>
+                                        {/* <div className='col-12 col-md-12 col-lg-6 card p-2'>
                                             <div className='text-center' style={{color: '#18336c', fontSize: '20px'}}><i className="fas fa-location-dot"></i></div>
                                             <div className='text-center' style={{color: 'black', fontSize: '20px'}}><b>Our Office Address :</b></div>
                                             <div className='text-center'>International House, Constance Street, London E16</div>
-                                        </div>
-                                        <div className='col-12 col-md-12 col-lg-6 card p-2'>
+                                        </div> */}
+                                        <div className='col-12 col-md-12 col-lg-12 card p-2'>
                                             <div className='text-center' style={{color: '#18336c', fontSize: '20px'}}><i className="fas fa-location-dot"></i></div>
                                             <div className='text-center' style={{color: 'black', fontSize: '20px'}}><b>Our India Branch :</b></div>
-                                            <div className='text-center'>27 krishna vihar Behind mds school old rto Pratap nagar Udaipur, Rajasthan</div>
+                                            <div className='text-center'>410,  4th floor, Ashoka palace, Shobhagpura, Udaipur, Rajasthan</div>
                                         </div>
                                     </div>
                                 </div>
