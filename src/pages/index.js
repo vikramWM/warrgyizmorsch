@@ -92,12 +92,12 @@ const Index = () => {
   
 // ServiceSlider-start-------------------------------
     const serviceCardData = [
-        {
-          imgSrc: "assets/img/icon/csp.avif",
-          title: "Voice Support",
-          description: "When you're looking to make your business stand out, voice assistance services add the missing feature...",
-          link: "/call-preference-service",
-        },
+        // {
+        //   imgSrc: "assets/img/icon/csp.avif",
+        //   title: "Voice Support",
+        //   description: "When you're looking to make your business stand out, voice assistance services add the missing feature...",
+        //   link: "/call-preference-service",
+        // },
         // {
         //   imgSrc: "assets/img/icon/omni.jpg",
         //   title: "Omni Support",

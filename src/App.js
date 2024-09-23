@@ -9,14 +9,14 @@ import Error from './pages/error.js';
 import Blog from './pages/blog.js';
 import Gallery from './pages/gallery.js';
 import Career from './pages/career.js';
-import OmniSupport from './pages/services/omni_support.js';
+// import OmniSupport from './pages/services/omni_support.js';
 import VirtualLearning from './pages/services/virtual_learning.js';
 import AccountingAndBookkeepingServices from './pages/services/accounting_and_bookkeeping_services.js';
 import DataManagement from './pages/services/data_management.js';
 import WebsiteDesignDevelopment from './pages/services/website-design_development.js';
 import ContentWriting from './pages/services/content_writing.js';
 import E_CommerceServices from './pages/services/e-commerce_services.js';
-import VoiceSupport from './pages/services/voice_support.js';
+// import VoiceSupport from './pages/services/voice_support.js';
 import DigitalMarketing from './pages/services/digital_marketing.js';
 
 import How_digital_marketing_is_different_from_traditional_marketing from './pages/blog/how_digital_marketing_is_different_from_traditional_marketing.js';
@@ -38,7 +38,7 @@ function App() {
 			
 			<Router>
 				<Routes>
-					<Route path='/' element={<FrontEnd />}>
+					    <Route path='/' element={<FrontEnd />}>
 						<Route path='/' element={<Index />} />
 						<Route path='/about-us' element={<About />} />
 						<Route path='/contact-us' element={<Contact />} />
@@ -50,7 +50,7 @@ function App() {
 						<Route path='/website-design-development' element={<WebsiteDesignDevelopment />} />
 						<Route path='/content-writing-service' element={<ContentWriting />} />
 						<Route path='/e-commerce-services' element={<E_CommerceServices />} />
-						<Route path='/call-preference-service' element={<VoiceSupport />} />
+						{/* <Route path='/call-preference-service' element={<VoiceSupport />} /> */}
 						<Route path='/digital-marketing-services' element={<DigitalMarketing />} />
 						<Route path='/blog' element={<Blog />} />
 						<Route path='/how-digital-marketing-is-different-from-traditional-marketing' element={<How_digital_marketing_is_different_from_traditional_marketing />} />

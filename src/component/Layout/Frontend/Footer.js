@@ -72,13 +72,13 @@ const Footer = () => {
                                                 <a href="https://www.google.com/maps" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>Warrgyizmorsch private limited, 410,  4th floor, Ashoka palace, Shobhagpura, Udaipur, Rajasthan</a>
                                             </div>
                                         </div>
-                                        {/* <div className="contact-feature">
+                                        <div className="contact-feature">
                                             <div className="icon-btn"><i className="fa-solid fa-location-dot"></i></div>
                                             <div className="media-body">
                                                 <p className="contact-feature_label">office location</p>
                                                 <a href="https://www.google.com/maps" className="contact-feature_link" style={{ overflowWrap: 'anywhere'}}>First floor, Bilt mansions, suite 114, 4-16 Deptford Bridge, London SE8 4HH, United Kingdom</a>
                                             </div>
-                                        </div> */}
+                                        </div>
                                         <div className="contact-feature">
                                             <div className="icon-btn"><i className="fa-solid fa-phone"></i></div>
                                             <div className="media-body">

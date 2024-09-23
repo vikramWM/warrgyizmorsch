@@ -2,12 +2,12 @@ import React from 'react';
 
 const Services = () => {
     const servicesData = [
-        {
-            title: "Voice support",
-            imgSrc: "assets/img/icon/csp.avif",
-            description: "When you're looking to make your business stand out, voice assistance services add the missing feature...",
-            link: "/call-preference-service"
-        },
+        // {
+        //     title: "Voice support",
+        //     imgSrc: "assets/img/icon/csp.avif",
+        //     description: "When you're looking to make your business stand out, voice assistance services add the missing feature...",
+        //     link: "/call-preference-service"
+        // },
         // {
         //     title: "Omni Support",
         //     imgSrc: "assets/img/icon/omni.jpg",
