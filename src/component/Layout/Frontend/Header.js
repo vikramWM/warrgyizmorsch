@@ -51,7 +51,7 @@ const Header = () => {
                                 <li><a href="/digital-marketing-services">Digital Marketing Services</a></li>
                             </ul>
                         </li>
-                        <li><a href="/career">Career</a></li>
+                        {/* <li><a href="/career">Career</a></li> */}
                         <li><a href="/blog">Blog</a></li>
                         <li><a href="/contact-us">Contact Us</a></li>
                         <li><a href="/gallery">Gallery</a></li>
@@ -115,7 +115,7 @@ const Header = () => {
                                                 <li><a href="/digital-marketing-services">Digital Marketing Services</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/career">Career</a></li>
+                                        {/* <li><a href="/career">Career</a></li> */}
                                         <li><a href="/blog">Blog</a></li>
                                         <li><a href="/contact-us">Contact Us</a></li>
                                         <li><a href="/gallery">Gallery</a></li>                                        
